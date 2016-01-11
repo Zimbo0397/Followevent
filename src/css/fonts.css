@@ -28,6 +28,36 @@
 	font-style: normal;
 	font-weight: 300;
 }
+@font-face {
+	font-family: 'Myriad Pro';
+	src: url('../fonts/MyriadProRegular.ttf');
+/*	src: url('../fonts/calibri.eot');
+	src: url('../fonts/calibri.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/calibri.woff') format('woff'),
+		 url('../fonts/calibri.svg') format('svg');*/
+	font-style: normal;
+	font-weight: 300;
+}
+@font-face {
+	font-family: 'Myriad Pro';
+	src: url('../fonts/MyriadProSemiBold.ttf');
+/*	src: url('../fonts/calibri.eot');
+	src: url('../fonts/calibri.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/calibri.woff') format('woff'),
+		 url('../fonts/calibri.svg') format('svg');*/
+	font-style: normal;
+	font-weight: 400;
+}
+@font-face {
+	font-family: 'Myriad Pro';
+	src: url('../fonts/MyriadProBold.ttf');
+/*	src: url('../fonts/calibri.eot');
+	src: url('../fonts/calibri.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/calibri.woff') format('woff'),
+		 url('../fonts/calibri.svg') format('svg');*/
+	font-style: normal;
+	font-weight: 700;
+}
 /*@font-face {
 	font-family: 'Calibri';
 	src: url('../fonts/calibriz.ttf');

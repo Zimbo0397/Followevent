@@ -182,7 +182,7 @@
     color: #454545;
     font-family: Roboto;
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 100;
     padding-left: 0px;
     padding-right: 0px;
     margin-left: 15px;
@@ -267,16 +267,200 @@ color: #454545;
 
 
 /*////events-block//*/
+.events-block .events-holder {
+    width: 985px;
+    background: #000;
+    margin-left: 7px;
+    padding-left: -7px;
+    float: left;
+}
 .events-block .events-wraper {
-    margin: -7px;
+    margin-top: -7px;
+    margin-left: -7px;
+    margin-bottom: -7px;
+    width: 999px;
+    float: left;
+}
+.events-block .banners-wraper {
+    float: left;
 }
 .events-block .event-plit {
     margin: 7px;
     float: left;
-    height: 277px;
+    height: 450px;
     width: 234px;
+    position: relative;
+}
+.events-block .event-plit > .image-holder {
+    position: absolute;
+}
+.events-block .event-plit .content-holder {
+    z-index: 1;
     position: relative;
 }
 .events-block .event-plit.lg {
     width: 489px;
+}
+.banners-wraper .side-bunner-1 {
+    height: 450px;
+    margin-bottom: 14px;
+    margin-left: 14px;
+}
+.banners-wraper .side-bunner-2 {
+    margin-bottom: 14px;
+    margin-left: 7px;
+}
+.banners-wraper .side-bunner-2 > .image-holder {
+    height: 176px;
+}
+/*/social-holder/*/
+.banners-wraper .side-bunner-2 .social-holder {
+    margin-top: 1px;
+    height: 273px;
+}
+.banners-wraper .side-bunner-2 .social-holder .soc-header {
+    background: #ddd;
+    position: relative;
+    padding-right: 30px;
+}
+.banners-wraper .side-bunner-2 .social-holder .bott-desc {
+    background: #ddd;
+    position: relative;
+    padding: 6px;
+    padding-left: 49px;
+}
+.banners-wraper .side-bunner-2 .social-holder .bott-desc p {
+    color: #282a2d;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 13px;
+    margin-bottom: 4px;
+    padding-top: 3px;
+}
+.banners-wraper .side-bunner-2 .social-holder .soc-header p {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 100;
+    margin-top: 0px;
+    margin-left: 13px;
+    padding-top: 4px;
+    margin-bottom: 0px;
+    padding-bottom: 3px;
+}
+.banners-wraper .side-bunner-2 .social-holder .soc-header .image-holder {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 5px;
+    top: 6px;
+} 
+.banners-wraper .side-bunner-2 .social-holder .nav-tabs > li {
+    width: 50%;
+    text-align: center;
+    border: none;
+}
+.banners-wraper .side-bunner-2 .social-holder .nav-tabs > li a {
+    border: none;
+    color: #282a2d;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 100;
+    padding: 7px;
+}
+.banners-wraper .side-bunner-2 .social-holder .nav-tabs > li.active a {
+    border-bottom: 1px solid #929292;
+    color: #282a2d;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 100;
+    background: #ddd;
+}
+.event-plit .content-holder .type-event-list {
+    max-width: 162px;
+    height: 194px;
+    overflow: hidden;
+    padding-left: 1px;
+}
+.event-plit .content-holder {
+    padding: 19px 18px 21px 16px;
+} 
+.event-plit .content-holder {
+
+}
+.event-plit .content-holder .type-event-list ul li {
+    margin-bottom: 6px;
+}
+.event-plit .content-holder .type-event-list ul li a {
+    padding: 3px;
+    padding-left: 9px;
+    padding-right: 12px;
+    border-radius: 4px;
+    background: #6ebe00;
+    color: white;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 100;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    text-decoration: none;
+    max-width: 161px;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    letter-spacing: -1.5px;
+}
+.event-plit .content-holder .type-event-list ul li.bg-none a {
+    background: transparent;
+}
+.event-plit .content-holder .bott-desc {
+
+}
+.event-plit .content-holder .bott-desc h1 {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 34px;
+    text-transform: uppercase;
+    background: #000;
+    max-width: 270px;
+    margin-top: 46px;
+}
+.event-plit .content-holder .detailed-desc-holder {
+    padding-top: 24px;
+}
+.event-plit .content-holder .detailed-desc-holder ul li {
+    position: relative;
+    color: white;
+    font-family: "Myriad Pro";
+    font-size: 14px;
+    font-weight: 300;
+    padding-left: 32px;
+}
+.event-plit .content-holder .detailed-desc-holder ul li img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.event-plit .content-holder .likes-counter {
+    position: absolute;
+    bottom: 30px;
+    right: 17px;
+}
+.event-plit .content-holder .likes-counter .image-holder {
+    text-align: right;
+}
+.event-plit .content-holder .likes-counter .image-holder img {
+    height: 27px;
+    width: 31px;
+    display: inline-block;
+}
+.event-plit .content-holder .likes-counter .text-holder {
+    color: white;
+    font-family: "Myriad Pro";
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 3px;
 }
