@@ -1,0 +1,80 @@
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/Roboto-Bold.ttf');
+/*	src: url('../fonts/calibri.eot');
+	src: url('../fonts/calibri.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/calibri.woff') format('woff'),
+		 url('../fonts/calibri.svg') format('svg');*/
+	font-style: normal;
+	font-weight: bold;
+}
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/Roboto-Light.ttf');
+/*	src: url('../fonts/calibri.eot');
+	src: url('../fonts/calibri.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/calibri.woff') format('woff'),
+		 url('../fonts/calibri.svg') format('svg');*/
+	font-style: normal;
+	font-weight: 100;
+}
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/Roboto-Medium.ttf');
+/*	src: url('../fonts/calibri.eot');
+	src: url('../fonts/calibri.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/calibri.woff') format('woff'),
+		 url('../fonts/calibri.svg') format('svg');*/
+	font-style: normal;
+	font-weight: 300;
+}
+/*@font-face {
+	font-family: 'Calibri';
+	src: url('../fonts/calibriz.ttf');
+	src: url('../fonts/calibriz.eot');
+	src: url('../fonts/calibriz.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/calibriz.woff') format('woff'),
+		 url('../fonts/calibriz.svg') format('svg');
+	font-style: italic;
+	font-weight: bold;
+}
+@font-face {
+	font-family: 'Calibri';
+	src: url('../fonts/calibrii.ttf');
+	src: url('../fonts/calibrii.eot');
+	src: url('../fonts/calibrii.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/calibrii.woff') format('woff'),
+		 url('../fonts/calibrii.svg') format('svg');
+	font-style: italic;
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'fontawesome';
+	src: url('../fonts/fontawesome-webfont.eot');
+	src: url('../fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/fontawesome-webfont.woff') format('woff'),
+		 url('../fonts/fontawesome-webfont.ttf') format('truetype'),
+		 url('../fonts/fontawesome-webfont.svg') format('svg');
+	font-style: normal;
+	font-weight: normal;
+}*/
+@font-face {
+	font-family: 'Lora';
+	src: url('../fonts/Lora-Regular.ttf');
+/*	src: url('../fonts/calibri.eot');
+	src: url('../fonts/calibri.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/calibri.woff') format('woff'),
+		 url('../fonts/calibri.svg') format('svg');*/
+	font-style: normal;
+	font-weight: bold;
+}
+@font-face {
+	font-family: 'Lora';
+	src: url('../fonts/Lora-Bold.ttf');
+/*	src: url('../fonts/calibri.eot');
+	src: url('../fonts/calibri.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/calibri.woff') format('woff'),
+		 url('../fonts/calibri.svg') format('svg');*/
+	font-style: normal;
+	font-weight: bold;
+}
