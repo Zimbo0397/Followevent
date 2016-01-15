@@ -5,8 +5,8 @@
  */
 
 /*!
- * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=04af9a9d0f818a8def4d)
- * Config saved to config.json and https://gist.github.com/04af9a9d0f818a8def4d
+ * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=408ca96f4bfdfce649ef)
+ * Config saved to config.json and https://gist.github.com/408ca96f4bfdfce649ef
  */
 /*!
  * Bootstrap v3.3.6 (http://getbootstrap.com)
@@ -1604,7 +1604,7 @@ pre code {
     width: 954px;
   }
 }
-@media (min-width: 1620px) {
+@media (min-width: 1320px) {
   .container {
     width: 1254px;
   }
@@ -2097,7 +2097,7 @@ pre code {
     margin-left: 0%;
   }
 }
-@media (min-width: 1620px) {
+@media (min-width: 1320px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
   }
@@ -6633,7 +6633,7 @@ button.close {
     display: inline-block !important;
   }
 }
-@media (min-width: 992px) and (max-width: 1619px) {
+@media (min-width: 992px) and (max-width: 1319px) {
   .visible-md {
     display: block !important;
   }
@@ -6648,22 +6648,22 @@ button.close {
     display: table-cell !important;
   }
 }
-@media (min-width: 992px) and (max-width: 1619px) {
+@media (min-width: 992px) and (max-width: 1319px) {
   .visible-md-block {
     display: block !important;
   }
 }
-@media (min-width: 992px) and (max-width: 1619px) {
+@media (min-width: 992px) and (max-width: 1319px) {
   .visible-md-inline {
     display: inline !important;
   }
 }
-@media (min-width: 992px) and (max-width: 1619px) {
+@media (min-width: 992px) and (max-width: 1319px) {
   .visible-md-inline-block {
     display: inline-block !important;
   }
 }
-@media (min-width: 1620px) {
+@media (min-width: 1320px) {
   .visible-lg {
     display: block !important;
   }
@@ -6678,17 +6678,17 @@ button.close {
     display: table-cell !important;
   }
 }
-@media (min-width: 1620px) {
+@media (min-width: 1320px) {
   .visible-lg-block {
     display: block !important;
   }
 }
-@media (min-width: 1620px) {
+@media (min-width: 1320px) {
   .visible-lg-inline {
     display: inline !important;
   }
 }
-@media (min-width: 1620px) {
+@media (min-width: 1320px) {
   .visible-lg-inline-block {
     display: inline-block !important;
   }
@@ -6703,12 +6703,12 @@ button.close {
     display: none !important;
   }
 }
-@media (min-width: 992px) and (max-width: 1619px) {
+@media (min-width: 992px) and (max-width: 1319px) {
   .hidden-md {
     display: none !important;
   }
 }
-@media (min-width: 1620px) {
+@media (min-width: 1320px) {
   .hidden-lg {
     display: none !important;
   }
