@@ -1322,17 +1322,20 @@ color: #454545;
     font-weight: 700;
     line-height: 18px;
     font-size: 30px;
+    text-transform: uppercase;
 }
 .inst-card-desc {
     margin-left: 37px;
     position: relative;
     padding-right: 40px;
+    height: 520px;
 }
 .inst-card h1 small {
     font-size: 24px;
     display: block;
     color: #454545;
     margin-top: 10px;
+    text-transform: none;
 }
 .inst-card .imhere-label {
     position: absolute;
@@ -1355,6 +1358,8 @@ color: #454545;
 }
 .inst-card .info-list {
     margin-top: 31px;
+    max-height: 180px;
+    overflow: hidden;
 }
 .inst-card .info-list ul {
     padding-left: 0;
@@ -1367,16 +1372,26 @@ color: #454545;
     margin-right: 4px;
 }
 .inst-card .info-list li span.value {
-    color: #454545;
+    color: #000000;
 }
 .inst-card .counters-bord {
-    position: relative;
     padding-right: 40px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.inst-card .counters-bord .count-back {
+    max-width: 493px;
+    height: 35px;
+    background: #f3f3f3;
+    top: -12px;
+    left: -23px;
+    position: relative;
 }
 .inst-card .counters-bord .general-counter {
     position: absolute;
-    right: -24px;
-    top: -9px;
+    right: 15px;
+    top: -27px;
     text-align: right;
 }
 .inst-card .counters-bord .general-counter span {
@@ -1926,4 +1941,264 @@ color: #454545;
 }
 .main-pagination .pagin-list li.active a {
     color: #d95600;
+}
+
+/*/////////////////menu-list/////////////////////*/
+.menu-list {
+    margin-bottom: 31px;
+}
+.menu-list .head-holder {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.menu-list .image-holder {
+    height: 198px;
+}
+.menu-list .list-head {
+    text-align: center;
+    width: 358px;
+    display: inline-block;
+}
+.menu-list .list-head h1 {
+    color: #454545;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-top: 29px;
+}
+.menu-list .menu-list-item {
+    height: 418px;
+    background: #e5e5e5;
+    margin-bottom: 26px;
+}
+.menu-list .menu-list-item .top-desc {
+    height: 159px;
+    overflow: hidden;
+    margin-bottom: 17px;
+}
+.menu-list .menu-list-item .top-desc h2 {
+    color: black;
+    font-family: Lora;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: 13px;
+}
+.menu-list .menu-list-item .top-desc h2.lt-fix {
+    letter-spacing: -1.5px;
+}
+.menu-list .menu-list-item .top-desc p {
+    color: black;
+    font-family: Lora;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-left: 17px;
+    padding-right: 17px;
+}
+.menu-list .menu-list-item .down-desc {
+    text-align: right;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.menu-list .menu-list-item .down-desc span {
+    font-family: Lora;
+    font-size: 18px;
+    font-weight: 400;
+    color: #454545;
+}
+.menu-list .menu-list-item .down-desc span.color {
+    color: #7b981a;
+}
+
+/*/////////////main-sharing////////////////////////*/
+
+.main-sharing .sharing-holder {
+    text-align: center;
+    margin-top: 85px;
+    margin-bottom: 31px;
+}
+.main-sharing .sharing-holder .sharing-block {
+    width: 358px;
+    display: inline-block;
+}
+.main-sharing .sharing-holder .sharing-block hr.type-1 {
+    margin-bottom: 8px;
+}
+.main-sharing .ya-share2__container_size_m .ya-share2__icon {
+    height: 18px;
+    width: 18px;
+    background-size: 18px 18px;
+}
+/*///////////cinema-schedule////////////*/
+.cinema-schedule .dropdown-holder {
+    text-align: center;
+    margin-top: 33px;
+    margin-bottom: 24px;
+}
+.cinema-schedule .dropdown-holder .dropdown {
+    display: inline-block;
+}
+.cinema-schedule .dropdown-holder .btn-default {
+    color: #454545;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+    padding-left: 0;
+    background: transparent;
+    color: #454545;
+}
+.cinema-schedule .dropdown-holder .btn-default .caret {
+    color: #909090;
+    border-top: 8px dashed;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+}
+.cinema-schedule button:focus,
+.cinema-schedule button:hover,
+.cinema-schedule button:active,
+.cinema-schedule .btn-default:active:hover,
+.cinema-schedule .open > .dropdown-toggle.btn-default:focus,
+.cinema-schedule .open > .dropdown-toggle.btn-default.focus {
+    box-shadow: none;
+    outline: none;
+    background: transparent;
+}
+.cinema-schedule .dropdown-menu {
+    min-width: 400px;
+}
+.cinema-schedule .dropdown-menu > li > a {
+    height: 40px;
+    line-height: 34px;
+    max-width: 95%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.cinema-schedule .schedule-item {
+    background: #e5e5e5;
+    padding-top: 10px;
+    margin-bottom: 13px;
+}
+.cinema-schedule .schedule-item .label-holder {
+    text-align: center;
+}
+.cinema-schedule .schedule-item .label-holder .label-wrap {
+    width: 165px;
+    display: inline-block;
+    position: relative;
+}
+.cinema-schedule .schedule-item .label-holder .label-bg {
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background: #a8a8a8;
+    top: 10px;
+}
+.cinema-schedule .schedule-item .label-holder.grn .label-bg {
+    background: #b8c98f;
+} 
+.cinema-schedule .schedule-item .label-holder.blue .label-bg {
+    background: #a6c7d8;
+}
+.cinema-schedule .schedule-item .label-holder span {
+    color: #454545;
+    font-family: Lora;
+    font-size: 14px;
+    font-style: italic;
+    background: #e5e5e5;
+    z-index: 1;
+    position: relative;
+}
+.cinema-schedule .schedule-item .label-holder.grn span {
+    color: #7b981a;
+}
+.cinema-schedule .schedule-item .label-holder.blue span {
+    color: #6194bf;
+}
+.cinema-schedule .schedule-item .top-desc h2 {
+    color: #454545;
+    font-family: Lora;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 7px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 24px;
+    margin-bottom: 4px;
+    height: 72px;
+    overflow: hidden;
+}
+.cinema-schedule .schedule-item .down-desc {
+    padding-left: 19px;
+    padding-right: 15px;
+}
+.cinema-schedule .schedule-item .down-desc p {
+    font-family: Lora;
+    font-weight: 400;
+    color: #454545;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 15px;
+}
+.cinema-schedule .schedule-item .img-part {
+    position: relative;
+    height: 198px;
+    margin-bottom: 5px;
+}
+.cinema-schedule .schedule-item .img-part .img-wraper {
+    position: absolute;
+    bottom: 0;
+}
+.cinema-schedule .schedule-item .img-part .ins-holder {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background: -moz-linear-gradient(top, rgba(255,255,255,0) 40%, rgba(217,217,217,0) 49%, rgba(0,0,0,0.71) 100%);
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0) 40%,rgba(217,217,217,0) 49%,rgba(0,0,0,0.71) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 40%,rgba(217,217,217,0) 49%,rgba(0,0,0,0.71) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#b5000000',GradientType=0 );
+}
+.cinema-schedule .schedule-item .img-part .likes-counter {
+    top: 139px;
+    right: 15px;
+}
+.cinema-schedule .schedule-item .img-part .likes-counter span {
+    text-align: center;
+    font-family: Lora;
+    font-size: 14px;
+    font-style: italic;
+}
+.cinema-schedule .schedule-item .bott-naws {
+    padding-left: 19px;
+    padding-right: 15px;
+    padding-bottom: 29px;
+}
+.cinema-schedule .schedule-item .bott-naws .url-holder {
+    margin-bottom: 5px;
+}
+.cinema-schedule .schedule-item .bott-naws .url-holder a {
+    font-family: Lora;
+    font-weight: 400;
+    color: #6194bf;
+    font-size: 16px;
+}
+.cinema-schedule .schedule-item .bott-naws .time-info span {
+    font-family: Lora;
+    font-weight: 400;
+    color: #6194bf;
+    font-size: 16px;
+}
+.cinema-schedule .schedule-item .bott-naws .time-info span.value {
+    color: #6194bf;
+    font-size: 18px;
 }
