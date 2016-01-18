@@ -1,0 +1,566 @@
+@media (min-width: 1320px) {
+	.event-plit.lg .content-holder .likes-counter {
+	    bottom: 19px;
+	    top: auto;
+	    right: 19px;
+	}
+	.event-plit.lg .content-holder .bott-desc h1 {
+	    font-size: 30px;
+	    line-height: 34px;
+	    max-width: 420px;
+	}
+}
+@media (max-width: 1320px) {
+	.main-inst-list.list-type-2 .list-item .side-desc-holder:after {
+		height: 85px;
+	}
+	.main-inst-list.list-type-2 .list-item .content-holder {
+		padding-left: 0;
+	}
+	.main-inst-list.list-type-2 .list-item .side-desc-holder {
+		top: 0;
+		right: 0;
+		position: relative;
+	}
+	.main-inst-list.list-type-2 .list-item .img-part {
+		position: relative;
+		width: 240px;
+	}
+	.main-inst-list.list-type-2 .list-item {
+		padding: 15px;
+		height: auto;
+	}
+	.main-inst-list .list-item .content-holder h1 {
+		margin-left: 0;
+	}
+	.main-inst-list .list-item {
+		height: 477px;
+	}
+	.main-inst-list .list-item .img-part {
+		height: 149px;
+	}
+	.main-filters .dropdowns-line button,
+	.main-filters .dropdowns-line li.last .dropdown button {
+		min-width: 380px;
+	}
+	.visitors-block .visitors-wraper {
+		margin-left: 0;
+	}
+	.visitors-block {
+		position: relative;
+	    left: -45px;
+	}
+	.about-inst .general-fotos ul li .image-holder {
+	    width: 144px;
+    	height: 126px;
+	}
+	.chat-body .right-part .massage-block {
+		width: 520px;
+	}
+	.cinema-schedule .schedule-item .img-part {
+		height: 148px;
+	}
+	.menu-list .menu-list-item {
+		height: 376px;
+	}
+	.menu-list .image-holder {
+		height: 148px;
+	}
+	.menu-list .menu-list-item .down-desc span {
+		font-size: 14px;
+	}
+	.inst-card .info-list {
+		margin-top: 10px;
+	}
+	.footer .mobile-social .soc-folow .image-holder img {
+		height: auto;
+		width: 100%;
+	}
+	.footer .mobile-social h3 {
+		margin-right: 0;
+	}
+	.footer .mobile-social .soc-folow {
+		left: auto;
+	}
+	.events-strip .col-md-3:nth-child(even) {
+		margin-bottom: 7px;
+	}
+	.events-strip .col-md-3 {
+		width: 50%;
+		text-align: center;
+	}
+	.events-strip .strip-block {
+		width: 299.5px;
+		display: inline-block;
+	}
+	.insftitutions .insftitutions-plit .content-holder .round-icon-holder {
+		margin-top: 19px;
+	}
+	.insftitutions .insftitutions-plit {
+		height: 342px;
+	}
+	.event-plit.lg .content-holder .bott-desc .h-holder {
+		margin-top: 33px;
+		 max-height: 70px;
+    	min-height: 70px;
+	}
+	.event-plit .content-holder .type-event-list ul li a {
+		max-width: 146px;
+	}
+	.events-block .event-plit {
+		height: 442px;
+	}
+	.likes-counter span.type-1 {
+		display: none;
+	}
+	.events-block .events-holder {
+		width: 712px;
+	}
+	.events-block .events-wraper {
+	    width: 728px;
+	}
+	.events-block .banners-wraper {
+		width: 228px;
+	}
+	.banners-wraper .side-bunner-1 {
+	    height: auto;
+    	width: 214px;
+    	margin-bottom: 30px;
+	}
+	.banners-wraper .side-bunner-2 > .image-holder {
+		height: auto;
+	}
+	.banners-wraper .side-bunner-2 .social-holder {
+		width: 214px;
+		margin-top: 30px;
+	}
+	.banners-wraper .side-bunner-2 .social-holder .bott-desc {
+		margin-top: 17px;
+	}
+	.banners-wraper .side-bunner-2  {
+		width: 214px;
+	}
+	.events-block .event-plit.lg {
+		width: 228px;
+	}
+	.events-block .event-plit {
+		width: 228px;
+	}
+}
+@media (min-width: 991px) {
+	.pd-rt-cnl {
+	    padding-right: 0;
+	}
+}
+@media (max-width: 991px) {
+	.main-filters .dropdowns-line .f-icon {
+		right: 16px;
+	}
+	.main-filters .dropdowns-line button,
+	.main-filters .dropdowns-line li.last .dropdown button {
+		min-width: 100%;
+		padding-right: 43px;
+	}
+	.main-filters .dropdowns-line li {
+		display: block;
+	}
+	.visitors-block .visitors-wraper {
+		text-align: center;
+	}
+	.visitors-block {
+		left: 0;
+	}
+	.inst-reviews-list {
+		padding-right: 6px;
+	}
+	.about-inst .general-fotos ul li .image-holder {
+		width: 160px;
+		height: 141px;
+	}
+	.about-inst .general-fotos .fotos-holder {
+		left: 0;
+		margin: 5px;
+	}
+	.user-line .right-block .user-holder .ms-count {
+		right: 2px;
+	}
+	.chat-body .right-part .massage-block {
+		width: 100%;
+	}
+	.chat-body .right-part {
+		float: none;
+	}
+	.chat-body .left-part .avatar-block {
+		display: inline-block;
+		margin-bottom: 40px;
+	}
+	.chat-body .left-part {
+		float: none;
+		text-align: center;
+	}
+	.inst-card .counters-bord .general-counter {
+		bottom: 5px;
+	}
+	.inst-card .counters-bord .count-back {
+		top: 0;
+		left: 0;
+	}
+	.inst-card .counters-bord {
+		position: relative;
+	}
+	.inst-card .main-foto {
+		padding: 14px;
+	}
+	.footer .f-bott-nav li a {
+		font-size: 19px;
+	}
+	.footer .f-brand-desc {
+		font-size: 19px;
+	}
+	.sm-hiden {
+		display: none;
+	} 
+	.main-navbar .navbar-nav > li > a {
+	    margin-left: 10px;
+    	margin-right: 14px;
+	}
+	.events-block .banners-wraper {
+		display: none;
+	}
+	.footer .mobile-social h3 {
+		margin-top: 13px;
+	}
+	.footer .mobile-social .soc-folow .image-holder {
+		max-width: 80px;
+		display: inline-block;
+	}
+	.inst-card .imhere-label {
+		margin-right: 14px;
+	}
+	.inst-card-desc {
+		margin: 0;
+		padding: 14px;
+		height: auto;
+	}
+	.inst-card .info-list {
+		max-height: none;
+	}
+
+}
+@media (max-width: 767px) {
+	.main-inst-list .list-item {
+		height: 558px;
+	}
+	.main-inst-list.list-type-2 .list-item .img-part {
+		width: 361px;
+	}
+	.main-inst-list .list-item .img-part {
+		height: 238px;
+	}
+	.main-inst-list .list-item .img-part .img-wraper {
+		position: static;
+		height: 100%;
+	}
+	.main-inst-list .list-item .img-part .img-wraper .image-holder img {
+		width: auto;
+		height: 100%;
+	}
+	.inst-reviews-list {
+		margin-bottom: 40px;
+	}
+	.visitors-block ul li {
+		display: inline-block;
+	}
+	.inst-reviews-list {
+		padding-right: 40px;
+	}
+	.top-bunner .no-img {
+		height: 145px;
+	}
+	.cinema-schedule .schedule-item .img-part {
+		height: 224px;
+	}
+	.inst-card .counters-bord .count-back {
+		display: none;
+	}
+	.footer .f-bott-nav {
+		text-align: center;
+    	margin-top: 15px;
+	}
+	.footer .f-brand-desc {
+		text-align: center;
+	}
+	.footer {
+		height: auto;
+	}
+	.events-block .event-plit {
+		width: 234px;
+		text-align: left;
+	}
+	.events-block .event-plit.lg {
+		width: 234px;
+	}
+	.events-block .events-wraper {
+		width: 497px;
+	}
+	.events-block .events-holder {
+		width: 482px;
+	    display: inline-block;
+	    float: none;
+	    margin-left: 0;
+	}
+	.events-block {
+		text-align: center;
+	}
+	.days-pager ul li {
+		padding-right: 8px;
+	}
+	.days-pager ul {
+		margin-left: 0;
+	}
+	.days-pager h1 {
+		font-size: 27px;
+	}
+	.main-navbar {
+	    margin-left: 0;
+	}
+	.main-navbar .navbar-nav {
+		margin: 0;
+	}
+	.user-line .navbar-right input::-webkit-input-placeholder {
+    text-align: left;
+	}
+	.user-line .navbar-right input::-moz-placeholder {
+	    text-align: left;
+	}
+	.user-line .navbar-right input:-moz-placeholder {
+	    text-align: left;
+	}
+	.user-line .navbar-right input:-ms-input-placeholder {
+	    text-align: left;
+
+	}
+	.user-line form.navbar-form.navbar-left {
+		position: relative;
+	}
+	.user-line .navbar-right button {
+	    position: absolute;
+	    right: 20px;
+	    top: 20px;
+	}
+}
+@media (max-width: 640px) {
+	.events-strip .col-xs-6 {
+		width: 100%;
+	}
+	.events-strip .strip-block {
+		width: 50%;
+	}
+}
+@media (max-width: 540px) {
+	.main-inst-list.list-type-2 .list-item .img-part {
+		width: 100%;
+	}
+	.cinema-schedule.tcs .floor-number .number-holder {
+		min-width: 280px;
+	}
+	.inst-sorting .sorts-line .sorts-urls ul li {
+		margin-left: 0;
+	}
+	.inst-sorting .sorts-line .sorts-urls ul li a {
+		font-size: 14px;
+	}
+	.inst-sorting .sorts-line .sorts-urls  {
+		margin-top: 20px;
+	}
+	.main-inst-list .list-item {
+		height: auto;
+		padding-bottom: 20px;
+	}
+	.main-inst-list .list-item .img-part {
+		height: auto;
+	}
+	.main-inst-list .list-item .img-part .img-wraper .image-holder img {
+		width: 100%;
+		height: auto;
+	}
+	.inst-reviews-list ul li .review-head {
+		text-align: center;
+	}
+	.inst-reviews-list ul li .review-head time {
+		display: block;
+	}
+	.inst-reviews-list ul li {
+		padding: 15px;
+	}
+	.inst-reviews-list ul li .image-holder {
+		position: static;
+		margin: 10px auto;
+	}
+	.chat-body .right-part .massage-block .date-holder p {
+		margin-right: 0;
+	}
+	.chat-body .right-part .massage-block .date-holder {
+		width: 280px;
+		left: 0;
+	}
+	.options-block ul li {
+		display: block;
+		margin-bottom: 5px auto;
+	}
+	.chat-body {
+		padding: 5px;
+		padding-bottom: 40px;
+	}
+	.chat-body .left-part .avatar-block .image-holder {
+		height: auto;
+	}
+	.chat-body .left-part .avatar-block {
+		width: 280px;
+	}
+	.cinema-schedule .schedule-item .img-part {
+		height: auto;
+	}
+	.cinema-schedule .schedule-item .img-part .img-wraper {
+		position: static;
+	}
+	.cinema-schedule .col-xs-6 {
+		width: 100%;
+	} 
+	.cinema-schedule .dropdown-menu > li > a {
+		font-size: 12px;
+	}
+	.cinema-schedule .dropdown-menu {
+		min-width: 100%;
+		max-width: 100%;
+	}
+	.cinema-schedule .dropdown-holder .btn-default .caret {
+		color: #909090;
+	    border-top: 4px dashed;
+	    border-right: 4px solid transparent;
+	    border-left: 4px solid transparent;
+	}
+	.cinema-schedule .dropdown-holder .btn-default {
+		font-size: 14px;
+	}
+	.main-sharing .sharing-holder .sharing-block {
+		width: 280px;
+	}
+	.menu-list .menu-list-item .down-desc span {
+		font-size: 18px;
+	}
+	.menu-list .menu-list-item {
+		height: auto;
+		padding-bottom: 20px;
+	}
+	.menu-list .image-holder {
+		height: auto;
+	}
+	.menu-list .list-head {
+		width: 280px;
+	}
+	.nav-holder .inst-mini-nav ul li a {
+		padding: 0;
+		font-size: 14px;
+	}
+	.inst-card .imhere-label {
+		position: static;
+	} 
+	.footer .search-line .h-holder {
+		width: 100%;
+	}
+	.footer .search-line h2 {
+		width: 100%;
+	}
+	.footer .search-line .form-group {
+		width: 100%;
+	}
+	.footer .f-content .cities-list ul {
+		padding-left: 0;
+	}
+	.footer .f-content {
+		text-align: center;
+	}
+	.footer .f-content .f-logo {
+		display: inline-block;
+	    padding-left: 0;
+	    padding-right: 0;
+	    text-align: center;
+	}
+	.footer .f-content .f-logo img {
+		position: static;
+		display: inline-block;
+	}
+	.mobile-social {
+		text-align: center;
+	}
+	.footer .mobile-social h3 {
+		display: inline-block;
+		max-width: 300px;
+	}
+	.events-block .event-plit > .image-holder {
+		height: auto;
+		width: 100%;
+	}
+	.events-block .events-holder {
+		width: 280px;
+	}
+	.events-block .events-wraper {
+		width: 294px;
+	}
+	.events-block .event-plit {
+		width: 280px;
+	}
+	.events-block .event-plit.lg {
+		width: 280px;
+	}
+	.day-foto .image-holder img {
+		width: auto;
+		height: 100%;
+	}
+	.events-strip .strip-block {
+		width: 280px;
+	}
+	.days-pager {
+		text-align: center;
+		margin-bottom: 40px;
+	}
+	.insftitutions .insftitutions-plit {
+	    margin: 14px auto;
+    	width: 280px;
+	}
+	.insftitutions h1 {
+		text-align: center;
+	}
+	.col-xs-6 {
+		width: 100%;
+	}
+	.events-block .event-plit {
+		margin-bottom: 14px;
+	}
+	.events-block .event-plit.lg {
+		background: #000;
+	}
+	.events-block .events-holder {
+		background: transparent;
+	}
+	.user-line .left-block {
+	    padding-left: 10px;
+	}
+	.user-line .logo-block {
+		position: relative;
+    	left: 13px;
+	}
+}
+@media (max-width: 380px) {
+	.inst-reviews-list {
+		padding-right: 5px;
+	}
+	.about-inst .general-fotos ul li  {
+		width: 100%;
+	}
+	.about-inst .general-fotos ul li .image-holder {
+		width: 100%;
+		height: auto;
+	}
+}

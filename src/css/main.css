@@ -18,6 +18,14 @@ hr.type-1 {
     border-color: #000;
     margin-bottom: 5px;
 }
+a,
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+.likes-counter  a {
+    text-decoration: none;
+}
 .image-holder {
     overflow: hidden;
     height: 100%;
@@ -37,9 +45,6 @@ hr.type-1 {
 .page-wraper.card-zavedeniya {
     background: url(../img/content/wraper-bg-1.jpg);
     background-size: cover;
-}
-.pd-rt-cnl {
-    padding-right: 0;
 }
 .t-label {
     position: absolute;
@@ -170,6 +175,9 @@ hr.type-1 {
     text-align: center;
     height: 50px;
 }
+.footer .search-line .form-group .icon-holder:hover {
+    opacity: .8;
+}
 .footer .f-content {
     margin-top: 70px;
 }
@@ -205,6 +213,9 @@ hr.type-1 {
     font-weight: 700;
     margin-bottom: 9px;
 }
+.footer .f-content .cities-list li:hover {
+    opacity: .8;
+}
 .footer .f-event-list {
     margin-top: 46px;
     max-height: 563px;
@@ -236,6 +247,9 @@ hr.type-1 {
 .footer .f-event-list ul li p {
     max-height: 36px;
     overflow: hidden;
+}
+.footer .f-event-list ul li p:hover {
+    opacity: .8;
 }
 .footer .mobile-social h3 {
     color: black;
@@ -284,12 +298,16 @@ hr.type-1 {
     font-family: "Roboto";
     font-weight: 100;
 }
+.footer .f-bott-nav li a:hover {
+    opacity: .8;
+}
 /*////top-bunner//////*/
 .top-bunner {
     text-align: center;
-    height: 190px;
 }
-
+.top-bunner .no-img {
+    height: 248px;
+}
 /*//user-line//*/
 .user-line {
     background: #fff;
@@ -366,6 +384,26 @@ hr.type-1 {
     margin-top: 32px;
     float: right;
     margin-right: 9px;
+}
+.user-line .right-block .user-holder {
+    position: relative;
+}
+.user-line .right-block .user-holder .ms-count {
+    position: absolute;
+    right: -5px;
+    top: 18px;
+    background: #3d95c2;
+    padding: 2px;
+    border-radius: 12px;
+    padding-left: 13px;
+    padding-right: 14px;
+}
+.user-line .right-block .user-holder .ms-count span {
+    color: white;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
 }
 .user-line .btn-default {
     background: transparent;
@@ -514,6 +552,9 @@ hr.type-1 {
 .days-pager ul li:last-child:after {
     display: none;
 }
+.days-pager ul li a {
+    text-decoration: none;
+}
 .days-pager ul li p {
 color: #454545;
     font-family: Roboto;
@@ -585,7 +626,7 @@ color: #454545;
     margin-left: 14px;
 }
 .banners-wraper .side-bunner-2 > .image-holder {
-    height: 176px;
+    height: 165px;
 }
 /*/social-holder/*/
 .banners-wraper .side-bunner-2 .social-holder {
@@ -727,11 +768,6 @@ color: #454545;
     margin-top: 53px;
     padding-left: 1px;
 }
-.event-plit.lg .content-holder .bott-desc h1 {
-    font-size: 30px;
-    line-height: 34px;
-    max-width: 420px;
-}
 .event-plit .content-holder .detailed-desc-holder {
     padding-top: 24px;
     background: #fff;
@@ -768,11 +804,6 @@ color: #454545;
 }
 .event-plit .content-holder .detailed-desc-holder ul li:last-child img {
     margin-left: 3px;
-}
-.event-plit.lg .content-holder .likes-counter {
-    bottom: 19px;
-    top: auto;
-    right: 19px;
 }
 
 /*//insftitutions//*/
@@ -1008,6 +1039,7 @@ color: #454545;
     margin-top: 6px;
     margin-left: -1px;
     width: 170px;
+    text-align: left;
 }
 /*//registration//*/
 .strip-block .registration {
@@ -1035,7 +1067,11 @@ color: #454545;
     font-size: 14px;
     font-weight: 400;
     margin-bottom: 8px;
-
+    text-align: left;
+}
+.strip-block .registration ul li a {
+    color: #454545;
+    text-decoration: none;
 }
 .strip-block .registration ul li img {
     position: absolute;
@@ -1353,12 +1389,15 @@ color: #454545;
     right: 0;
     top: 2px;
 }
+.inst-card .imhere-label:hover {
+    opacity: .8;
+}
 .inst-card hr {
     border-color: #666;
 }
 .inst-card .info-list {
     margin-top: 31px;
-    max-height: 180px;
+    max-height: 194px;
     overflow: hidden;
 }
 .inst-card .info-list ul {
@@ -1379,6 +1418,7 @@ color: #454545;
     position: absolute;
     bottom: 0;
     width: 100%;
+    height: 50px;
 }
 .inst-card .counters-bord .count-back {
     max-width: 493px;
@@ -1391,8 +1431,11 @@ color: #454545;
 .inst-card .counters-bord .general-counter {
     position: absolute;
     right: 15px;
-    top: -27px;
+    bottom: 15px;
     text-align: right;
+}
+.inst-card .counters-bord .general-counter:hover {
+    opacity: .8;
 }
 .inst-card .counters-bord .general-counter span {
     display: block;
@@ -1653,6 +1696,8 @@ color: #454545;
     padding-right: 55px;
     position: relative;
 }
+.main-filters .dropdowns-line  li {
+}
 .main-filters .dropdowns-line .f-icon {
     position: absolute;
     top: 17px;
@@ -1793,7 +1838,8 @@ color: #454545;
 }
 .main-inst-list .list-item .img-part .img-wraper {
     position: absolute;
-    bottom: 0;
+    top:0;
+    width: 100%;
 }
 .main-inst-list .list-item .img-part .ins-holder {
     position: absolute;
@@ -1806,7 +1852,8 @@ color: #454545;
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#b5000000',GradientType=0 );
 }
 .main-inst-list .list-item .img-part .likes-counter {
-    top: 138px;
+    top: auto;
+    bottom: 5px;
     right: 15px;
     text-align: center;
 }
@@ -1911,6 +1958,7 @@ color: #454545;
     position: absolute;
     top: 25px;
     right: 38px;
+    width: 280px;
 }
 .main-inst-list.list-type-2 .list-item .side-desc-holder:after {
     content: "";
@@ -2082,6 +2130,9 @@ color: #454545;
     text-overflow: ellipsis;
     white-space: nowrap;
 }
+.cinema-schedule .schedule-item.stock {
+    border: 3px solid #f16642;
+}
 .cinema-schedule .schedule-item {
     background: #e5e5e5;
     padding-top: 10px;
@@ -2102,11 +2153,21 @@ color: #454545;
     background: #a8a8a8;
     top: 10px;
 }
+.cinema-schedule .schedule-item .stock-label {
+    position: relative;
+    top: -11px;
+}
+.cinema-schedule .schedule-item .stock-label .label-holder .label-bg {
+    top: 17px;
+}
 .cinema-schedule .schedule-item .label-holder.grn .label-bg {
     background: #b8c98f;
 } 
 .cinema-schedule .schedule-item .label-holder.blue .label-bg {
     background: #a6c7d8;
+}
+.cinema-schedule .schedule-item .label-holder.orng .label-bg {
+    background: #edaf8f;
 }
 .cinema-schedule .schedule-item .label-holder span {
     color: #454545;
@@ -2117,12 +2178,23 @@ color: #454545;
     z-index: 1;
     position: relative;
 }
+.cinema-schedule .schedule-item .stock-label .label-holder span {
+    color: #d46646;
+    font-family: Lora;
+    font-size: 25px;
+    font-weight: 700;
+    font-style: italic;
+}
 .cinema-schedule .schedule-item .label-holder.grn span {
     color: #7b981a;
 }
 .cinema-schedule .schedule-item .label-holder.blue span {
     color: #6194bf;
 }
+.cinema-schedule .schedule-item .label-holder.orng span {
+    color: #d95600;
+}
+
 .cinema-schedule .schedule-item .top-desc h2 {
     color: #454545;
     font-family: Lora;
@@ -2157,6 +2229,7 @@ color: #454545;
 .cinema-schedule .schedule-item .img-part .img-wraper {
     position: absolute;
     bottom: 0;
+    width: 100%;
 }
 .cinema-schedule .schedule-item .img-part .ins-holder {
     position: absolute;
@@ -2169,8 +2242,12 @@ color: #454545;
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#b5000000',GradientType=0 );
 }
 .cinema-schedule .schedule-item .img-part .likes-counter {
-    top: 139px;
+    top: auto;
+    bottom: 0px;
     right: 15px;
+}
+.cinema-schedule .schedule-item .img-part .likes-counter:hover {
+    opacity: .8;
 }
 .cinema-schedule .schedule-item .img-part .likes-counter span {
     text-align: center;
@@ -2201,4 +2278,210 @@ color: #454545;
 .cinema-schedule .schedule-item .bott-naws .time-info span.value {
     color: #6194bf;
     font-size: 18px;
+}
+
+
+/*/////////cinema-schedule tcs/////////*/
+.cinema-schedule.tcs .floor-number {
+    text-align: center;
+}
+.cinema-schedule.tcs .floor-number .number-holder {
+    display: inline-block;
+    min-width: 358px;
+}
+.cinema-schedule.tcs .floor-number h2 {
+    color: #454545;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 41px;
+    margin-bottom: 8px;
+} 
+.cinema-schedule.tcs .dropdown-holder .btn-default {
+    font-size: 18px;
+    font-weight: 100;
+    color: #454545;
+    font-family: Roboto;
+}
+.cinema-schedule.tcs .dropdown-menu {
+    min-width: 200px;
+}
+.cinema-schedule.tcs hr.type-1 {
+    margin-bottom: 1px;
+}
+.cinema-schedule.tcs .dropdown-holder {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.cinema-schedule.tcs .floor-location p {
+    font-family: Lora;
+    font-weight: 400;
+    color: #454545;
+    font-size: 16px;
+}
+.cinema-schedule.tcs .schedule-item .bott-naws {
+    padding-bottom: 17px;
+}
+.cinema-schedule.tcs .floor-location p .color-bl {
+    color: #6194bf;
+    font-size: 18px;
+}
+
+/*///////////////chat-options///////////////*/
+.chat-options {
+    margin-top: 57px;
+    margin-bottom: 6px;
+}
+.chat-options .options-holder {
+    text-align: center;
+}
+.chat-options .options-holder .options-block {
+    display: inline-block;
+}
+.chat-options .options-holder .options-block  li a {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 100;
+    color: #454545;
+    text-decoration: none;
+}
+.chat-options .options-holder .options-block  li.active a {
+    color: #d95600; 
+} 
+
+/*//////////////chat-dialog///////////////////*/
+.chat-body {
+    padding: 44px 46px 76px 42px;
+}
+.chat-body .left-part  {
+    float: left;
+}
+.chat-body .left-part .avatar-block {
+    width: 300px;
+    background: #e5e5e5;
+}
+.chat-body .left-part .avatar-block .image-holder {
+    height: 300px;
+}
+.chat-body .left-part .avatar-block .name-block {
+    color: #454545;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 18px;
+    margin-bottom: 8px;
+}
+.chat-body .left-part .avatar-block .name-block p {
+    margin-bottom: 0;
+}
+.chat-body .left-part .avatar-block .name-block span {
+    font-size: 16px;
+    font-weight: 100;
+}
+.chat-body .left-part .avatar-block .user-social {
+    text-align: center;
+    padding-bottom: 16px;
+}
+.chat-body .left-part .avatar-block .user-social li:hover a img {
+    opacity: 0.8;
+}
+.chat-body .right-part {
+    float: right;
+}
+.chat-body .right-part .massage-block {
+    position: relative;
+    width: 810px;
+    padding: 11px 40px 14px 20px;
+    background: #ffe8db;
+    border-radius: 15px;
+    margin-bottom: 43px;
+}
+.chat-body .right-part .massage-block p {
+    margin-bottom: 0;
+    color: #454545;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: .2px;
+    line-height: 20px;
+}
+.chat-body .right-part .massage-block.type-2 {
+    text-align: right;
+    background: #d2e4aa;
+}
+.chat-body .right-part .massage-block .date-holder {
+    position: absolute;
+    text-align: center;
+    top: -25px;
+    width: 100%;
+}
+.chat-body .right-part .massage-block .date-holder p {
+    color: #454545;
+    font-family: Lora;
+    font-size: 16px;
+    font-style: italic;
+    margin-right: 31px;
+}
+.chat-body .right-part .massage-block .close-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.chat-body .right-part .massage-block .close-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 11px;
+    margin-top: 10px;
+}
+.answer-block p {
+    color: #454545;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 25px;
+    margin-bottom: 7px;
+    padding-top: 4px;
+    letter-spacing: 1.2px;
+}
+.answer-block .textarea-holder {
+    background: #f1f1f1;
+    border-radius: 15px;
+    padding: 20px 45px 15px 17px;
+    position: relative;
+}
+.answer-block .textarea-holder textarea {
+    resize: none;
+    background: #f1f1f1;
+    color: #454545;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 100;
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 67px;
+}
+.answer-block .textarea-holder .smile-btn {
+    position: absolute;
+    top: 11px;
+    right: 12px;
+    width: 25px;
+    height: 25px;
+}
+.answer-block .send-btn {
+    margin-top: 4px;
+    margin-left: 25px;
+    letter-spacing: 1.5px;
+}
+.answer-block .send-btn a {
+    color: #7b981a;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    text-decoration: none;
 }
