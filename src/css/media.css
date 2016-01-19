@@ -11,6 +11,28 @@
 	}
 }
 @media (max-width: 1320px) {
+	.main-inst-list.list-type-2.results .list-item {
+		padding-left: 320px;
+		padding-top: 0;
+	}
+	.main-inst-list.list-type-2.results .list-item .img-part {
+	    position: absolute;
+    	width: 300px;
+	}
+	.dropdowns-line .inputs-line .form-group input {
+		min-width: 397px;
+	}
+	.main-inst-list.list-type-2.sorts .content-holder {
+		max-width: 707px;
+	}
+	.main-inst-list.list-type-2.sorts .list-item .side-desc-holder {
+	    position: absolute;
+	    top: auto;
+	    bottom: 37px;
+	}
+	.registration-form .image-block {
+	    right: -103px;
+	}
 	.main-inst-list.w-events .list-item .content-holder h1 {
 		line-height: 18px;
 	}
@@ -222,6 +244,26 @@
 	}
 }
 @media (max-width: 991px) {
+	.dropdowns-line .inputs-line .form-group input {
+		min-width: 307px;
+	}
+	.main-inst-list.list-type-2.sorts .sort-info-block {
+		max-width: 100%;
+	}
+	.registration-form .inputs-holder {
+		left: 0;
+	    display: inline-block;
+	    margin-top: 40px;
+	    width: 300px;
+	    height: 350px;
+	}
+	.registration-form .image-block {
+		display: inline-block;
+		right: 0;
+	}
+	.registration-form .white-wraper {
+		text-align: center;
+	}
 	.inst-card.events.bott .bns-holder a {
 		padding-top: 7px;
 		font-size: 24px;
@@ -382,7 +424,7 @@
 }
 @media (max-width: 600px) {
 	.gallery .bxslider .image-holder {
-			height: 155px;
+		height: 155px;
 	}
 	.gallery #bx-pager .image-holder {
 		margin-left: 0;
@@ -399,6 +441,38 @@
 	}
 }
 @media (max-width: 767px) {
+	.main-inst-list.list-type-2 .list-item .content-holder h2 {
+		text-align: center;
+	}
+	.main-inst-list.list-type-2.results .list-item {
+		margin-bottom: 40px;
+	}
+	.main-inst-list.list-type-2.results .list-item .img-part {
+		position: relative;
+		width: auto;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+	.main-inst-list.list-type-2.results .list-item {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.dropdowns-line .inputs-line:after {
+	    right: 40px;
+	    top: 57px;
+	}
+	.dropdowns-line .inputs-line .form-group {
+		width: 100%;
+	}
+	.main-inst-list.list-type-2.sorts .list-item .content-holder {
+		padding-right: 0;
+	}
+	.main-inst-list.list-type-2.sorts .list-item .side-desc-holder {
+		width: 280px;
+		position: relative;
+	    right: -1px;
+	    bottom: 0;
+	}
 	.main-inst-list .list-item .inst-label-holder span {
 		font-size: 14px;
 	}
@@ -531,6 +605,19 @@
 	}
 }
 @media (max-width: 540px) {
+	.whoisthere .block-body .desc-part {
+		width: 280px;
+	}
+	.registration-form .inputs-holder {
+		width: 239px;
+	}
+	.registration-form .image-block .image-input {
+		height: auto;
+	}
+	.registration-form .image-block {
+		width: 275px;
+	    height: 433px;
+	}
 	.inst-card.events.bott .general-counter {
 		top: 2px;
 	}
@@ -740,6 +827,10 @@
 	}
 }
 @media (max-width: 380px) {
+	.inst-card.events h1 {
+		font-size: 25px;
+    	line-height: 32px;
+	}
 	.inst-card.events.bott .bns-holder a {
 		padding-top: 16px;
 	    font-size: 14px;

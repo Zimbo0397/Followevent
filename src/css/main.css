@@ -1668,6 +1668,13 @@ color: #454545;
     font-weight: 700;
     padding-left: 0;
 }
+.main-filters .main-dropdown h1 {
+    color: #454545;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
 .main-filters button {
     background: transparent;
     border: 0;
@@ -1691,6 +1698,9 @@ color: #454545;
     top: -5px;
     right: -3px;
 }
+.main-filters.news-list {
+    margin-top: 12px;
+}
 .main-filters .dropdowns-line {
     background: #fff;
     padding-right: 55px;
@@ -1702,6 +1712,45 @@ color: #454545;
     position: absolute;
     top: 17px;
     right: 25px;
+}
+.dropdowns-line .inputs-line {
+    position: relative;
+    padding-right: 40px;
+}
+.dropdowns-line .inputs-line:after {
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 36px;
+    background-color: #969696;
+    right: 38px;
+    top: 9px;
+}
+.dropdowns-line .inputs-line .form-group {
+    display: inline-block;
+    margin-bottom: 0;
+    position: relative;
+}
+.dropdowns-line .inputs-line .form-group input {
+    height: 52px;
+    border: none;
+    outline: none;
+    color: #9d9d9d;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 100;
+    padding-left: 24px;
+    min-width: 448px;
+    position: relative;
+}
+.dropdowns-line .inputs-line .form-group:first-child:after {
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 36px;
+    background-color: #969696;
+    right: 0;
+    top: 10px;
 }
 .main-filters .dropdowns-line button {
     background: transparent;
@@ -1769,6 +1818,12 @@ color: #454545;
 }
 .inst-sorting .sorts-line .sorts-bttns {
     float: left;
+}
+.main-filters.news-list .inst-sorting h1 {
+    text-align: left;
+} 
+.main-filters.news-list .inst-sorting h1 span.by-date {
+    float: right;
 }
 .inst-sorting .sorts-line .sorts-bttns span {
     font-family: Roboto;
@@ -1951,11 +2006,18 @@ color: #454545;
     padding-left: 300px;
     margin-bottom: 38px;
 }
+.main-inst-list.list-type-2.results .list-item {
+    background: transparent;
+    margin-bottom: 86px;
+}
 .main-inst-list.list-type-2 .list-item .img-part {
     position: absolute;
     width: 300px;
     top: 0;
     left: 0;
+}
+.main-inst-list.list-type-2.sorts .list-item {
+    background: transparent;
 }
 .main-inst-list.list-type-2 .list-item .content-holder {
     padding-top: 18px;
@@ -1966,10 +2028,32 @@ color: #454545;
     margin-left: 0;
     margin-bottom: 16px;
 }
+.main-inst-list.list-type-2.results .content-holder {
+    padding-top: 0;
+    max-width: 700px;
+    max-height: 193px;
+}
+.main-inst-list.list-type-2.results .list-item .content-holder p {
+    max-height: 170px;
+}
 .main-inst-list.list-type-2 .list-item .content-holder p {
     line-height: 18px;
     max-height: 108px;
     overflow: hidden;
+}
+.main-inst-list.list-type-2 .list-item .content-holder h2 {
+    color: #454545;
+    font-family: Lora;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 0;
+}
+.main-inst-list.list-type-2 .list-item .content-holder h2 time {
+    color: #565656;
+    font-family: Lora;
+    font-size: 14px;
+    font-weight: 400;
+    display: block;
 }
 .main-inst-list.list-type-2 .list-item .content-holder h1 small {
     display: block;
@@ -2953,4 +3037,198 @@ color: #454545;
 .if-your-like h1.color {
     color: #f77e40;
     margin-top: 6px;
+}
+
+/*////////////////registration-form/////////////////*/
+.registration-form {
+    margin-bottom: 78px;
+}
+.registration-form .image-block {
+    position: relative;
+    height: 429px;
+    width: 300px;
+    background: #e5e5e5;
+   top: -4px;
+    right: -233px;
+}
+.registration-form .white-wraper {
+    padding-top: 48px;
+    padding-bottom: 89px;
+}
+.registration-form .image-block .image-input {
+    height: 301px;
+}
+.registration-form .image-block .img-info {
+    text-align: center;
+    margin-top: 21px;
+}
+.registration-form .image-block .img-info p {
+    color: #999;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+}
+.registration-form .image-block .up-btn {
+    background: #bfbfbf;
+    text-align: center;
+    height: 47px;
+    background-color: #bebebe;
+    padding-top: 12px;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+}
+.registration-form .image-block a .up-btn {
+    color: #454545;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+.registration-form .inputs-holder {
+    height: 429px;
+    width: 373px;
+    position: relative;
+    left: 9px;
+}
+.registration-form .form-group {
+    position: relative;
+    margin-bottom: 16px;
+}
+.registration-form .form-group:after {
+    content: '';
+    position: absolute;
+    right: -19px;
+    top: 1px;
+    height: 14px;
+    width: 15px;
+    background: url(../img/icons/rule-star.png);
+}
+.registration-form .form-group input {
+    background: #e5e5e5;
+    width: 100%;
+    height: 45px;
+    border: none;
+    outline: none;
+    padding-left: 24px;
+    position: relative;
+    color: #454545;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+}
+.registration-form .form-group input.error {
+    border: 3px solid #ff0026;
+}
+.registration-form .form-group input::-webkit-input-placeholder {
+    color: #454545;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+}
+.registration-form .form-group input::-moz-placeholder {
+    color: #454545;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+}
+.registration-form .form-group input:-moz-placeholder {
+    color: #454545;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+}
+.registration-form .form-group input:-ms-input-placeholder {
+    color: #454545;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+}
+.registration-form .input-desc {
+    color: #aeaeae;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 100;
+    position: relative;
+    top: -13px;
+    right: -23px;
+    letter-spacing: 0.5px;
+    text-align: left;
+}
+.registration-form .create-btn {
+    width: 100%;
+    height: 45px;
+    background-color: #acca48;
+    text-align: center;
+    padding-top: 12px;
+    position: absolute;
+    bottom: 6px;
+}
+.registration-form a .create-btn {
+    color: #454545;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+/*////////////reg-header///////////////*/
+.reg-header {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.reg-header h1  {
+    color: #454545;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/*////////////////////main-inst-list list-type-2 sorts/////////////////////*/
+.main-inst-list.list-type-2.sorts .main-inst-list {
+    margin-top: 34px;
+}
+.main-inst-list.list-type-2.sorts .items-holder {
+    margin-top: 10px;
+}
+.main-inst-list.list-type-2.sorts .sort-info-block {
+    background: #e5e5e5;
+    padding-right: 16px;
+    max-width: 269px;
+    padding-top: 6px;
+}
+.main-inst-list.list-type-2.sorts .sort-info-block ul {
+    padding-left: 24px;
+}
+.main-inst-list.list-type-2.sorts .sort-info-block ul li {
+    position: relative;
+    padding-right: 40px;
+    line-height: 48px;
+}
+.main-inst-list.list-type-2.sorts .sort-info-block ul li a,
+.main-inst-list.list-type-2.sorts .sort-info-block ul li span {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 36px;
+    color: #454545;
+}
+.main-inst-list.list-type-2.sorts .sort-info-block ul li.active a,
+.main-inst-list.list-type-2.sorts .sort-info-block ul li.active span{
+    color: #d95600;
+}
+.main-inst-list.list-type-2.sorts .sort-info-block ul li a .value {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.main-inst-list.list-type-2.sorts .list-item .content-holder {
+    padding-right: 250px;
+}
+.main-inst-list.list-type-2.sorts .list-item .side-desc-holder {
+    right: 15px;
+    width: 190px;
 }
