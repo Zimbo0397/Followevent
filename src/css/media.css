@@ -236,14 +236,17 @@
 	}
 }
 @media (max-width: 1050px) {
-	.gallery .slider-holder .bx-wrapper .bx-prev {
-	    display: none;
-	}
 	.gallery .slider-holder .bx-wrapper .bx-next {
-	    display: none;
+	    right: 14px;
+	}
+	.gallery .slider-holder .bx-wrapper .bx-prev {
+		left: 9px;
 	}
 }
 @media (max-width: 991px) {
+	.gallery .bx-wrapper .bx-controls-direction a {
+		margin-bottom: -79px;
+	}
 	.dropdowns-line .inputs-line .form-group input {
 		min-width: 307px;
 	}
@@ -420,9 +423,14 @@
 	.inst-card .info-list {
 		max-height: none;
 	}
-
 }
 @media (max-width: 600px) {
+	.user-line .right-block .image-holder {
+		margin-top: 0;
+	}
+	.inst-card.events.bottom {
+		margin-bottom: 0;
+	}
 	.gallery .bxslider .image-holder {
 		height: 155px;
 	}
@@ -439,8 +447,36 @@
 	.gallery .slider-holder {
 		max-width: 287px;
 	}
+	.gallery .bx-wrapper .bx-controls-direction a {
+		margin-bottom: -109px;
+	}
+	.gallery .slider-holder {
+		margin-bottom: 80px;
+	}
 }
 @media (max-width: 767px) {
+	.user-line .right-block .image-holder 
+	.main-navbar .container-fluid {
+		position: absolute;
+		z-index: 5;
+		width: 100%;
+	} 
+	.navbar-default .navbar-collapse,
+	.navbar-default .navbar-form {
+		background: #fff;
+	}
+	.gallery .slider-holder {
+		margin-bottom: 40px;
+	}
+	.inst-card {
+		margin-top: 40px;
+	}
+	.chat-options {
+		margin-top: 20px;
+	}
+	.main-sharing .sharing-holder {
+		margin-top: 0;
+	}
 	.main-inst-list.list-type-2 .list-item .content-holder h2 {
 		text-align: center;
 	}
@@ -605,11 +641,24 @@
 	}
 }
 @media (max-width: 540px) {
+	.envent-video .video-holder iframe {
+		height: 175px;
+	}
+	.registration-form .white-wraper {
+		padding-bottom: 40px;
+	}
+	.registration-form .form-group:after {
+	    right: 1px;
+    	top: -28px;
+	}
+	.registration-form .form-group {
+		margin-bottom: 35px;
+	}
 	.whoisthere .block-body .desc-part {
 		width: 280px;
 	}
 	.registration-form .inputs-holder {
-		width: 239px;
+		width: 280px;
 	}
 	.registration-form .image-block .image-input {
 		height: auto;
@@ -716,9 +765,6 @@
 	}
 	.cinema-schedule .dropdown-holder .btn-default {
 		font-size: 14px;
-	}
-	.main-sharing .sharing-holder .sharing-block {
-		width: 280px;
 	}
 	.menu-list .menu-list-item .down-desc span {
 		font-size: 18px;

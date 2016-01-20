@@ -23,6 +23,9 @@ a:hover {
     text-decoration: none;
     color: inherit;
 }
+.ms-item {
+    float: left;
+}
 .likes-counter  a {
     text-decoration: none;
 }
@@ -51,6 +54,18 @@ a:hover {
     bottom: -25px;
     left: 48px;
 }
+/*/////////#scrollUp////////////*/
+#scrollUp {
+    position: fixed;
+    padding: 15px 10px 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    right: 21px;
+    bottom: 78px;
+    display: none;
+    cursor: pointer;
+}
 /*//likes-counter//*/
  .likes-counter {
     position: absolute;
@@ -71,6 +86,18 @@ a:hover {
     font-size: 14px;
     font-weight: 300;
     margin-top: 3px;
+}
+.likes-counter:hover .text-holder,
+.likes-counter.active .text-holder {
+    color: red;
+}
+.likes-counter .image-holder i {
+    color: #fff;
+    font-size: 29px;
+}
+.likes-counter:hover .image-holder i,
+.likes-counter.active .image-holder i {
+    color: red;
 }
 .poster-likes {
     color: #454545;
@@ -304,6 +331,12 @@ a:hover {
 /*////top-bunner//////*/
 .top-bunner {
     text-align: center;
+}
+.top-bunner .image-holder {
+    max-width: 959px;
+    max-height: 190px;
+    display: block;
+    margin: auto;
 }
 .top-bunner .no-img {
     height: 248px;
@@ -1414,7 +1447,7 @@ color: #454545;
     color: #000000;
 }
 .inst-card .counters-bord {
-    padding-right: 40px;
+    padding-right: 90px;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -1913,7 +1946,6 @@ color: #454545;
     text-align: center;
 }
 .main-inst-list .list-item .img-part .likes-counter span {
-    color: white;
     font-family: Lora;
     font-size: 14px;
     font-style: italic;
@@ -2177,7 +2209,7 @@ color: #454545;
     margin-bottom: 31px;
 }
 .main-sharing .sharing-holder .sharing-block {
-    width: 358px;
+    width: 100%;
     display: inline-block;
 }
 .main-sharing .sharing-holder .sharing-block hr.type-1 {
@@ -2943,6 +2975,11 @@ color: #454545;
 .envent-video .video-holder {
     max-width: 859px;
     display: inline-block;
+    width: 100%;
+    max-height: 485px;
+}
+.envent-video .video-holder iframe {
+    height: 485px;
 }
 
 /*//////////////////inst-card events bott/////////////////////////*/
