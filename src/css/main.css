@@ -54,6 +54,7 @@ a:hover {
     bottom: -25px;
     left: 48px;
 }
+
 /*/////////#scrollUp////////////*/
 #scrollUp {
     position: fixed;
@@ -89,7 +90,7 @@ a:hover {
 }
 .likes-counter:hover .text-holder,
 .likes-counter.active .text-holder {
-    color: red;
+    color: #d95600;
 }
 .likes-counter .image-holder i {
     color: #fff;
@@ -97,7 +98,7 @@ a:hover {
 }
 .likes-counter:hover .image-holder i,
 .likes-counter.active .image-holder i {
-    color: red;
+    color: #d95600;
 }
 .poster-likes {
     color: #454545;
@@ -108,6 +109,10 @@ a:hover {
     position: relative;
     padding-right: 28px;
 }
+.poster-likes i {
+    font-size: 25px;
+    color: #000;
+} 
 .poster-likes img {
     margin-left: 10px;
     max-width: 25px;
@@ -147,6 +152,17 @@ a:hover {
     -webkit-background-size: cover;
     background-size: cover;
 }
+.footer.autumn {
+    background: url(../img/content/autumn.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.footer.winter {
+    background: url(../img/content/winter.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
 .footer .f-top-bord {
     border-top: 3px solid black;
     margin-top: 11px;
@@ -245,7 +261,7 @@ a:hover {
 }
 .footer .f-event-list {
     margin-top: 46px;
-    max-height: 563px;
+    max-height: 573px;
     overflow: hidden;
 }
 .footer .f-event-list .fix-holder {
@@ -473,6 +489,7 @@ a:hover {
 }
 .user-line .navbar-right  {
     border-bottom: 4px solid #e8e8e8;
+    padding-left: 15px;
 }
 .user-line form.navbar-form.navbar-left {
     margin-bottom: 0;
@@ -602,6 +619,7 @@ color: #454545;
     font-family: Lora;
     font-size: 14px;
     font-weight: 400;
+    font-style: italic;
 }
 .days-pager ul li.active span {
     color: #d95600;
@@ -744,6 +762,9 @@ color: #454545;
 .event-plit .content-holder .type-event-list ul li {
     margin-bottom: 6px;
 }
+.event-plit .content-holder .type-event-list ul li:hover a {
+    opacity: .9;
+}
 .event-plit .content-holder .type-event-list ul li a {
     padding: 3px;
     padding-left: 9px;
@@ -836,9 +857,13 @@ color: #454545;
     left: 0;
 }
 .event-plit .content-holder .detailed-desc-holder ul li:last-child img {
-    margin-left: 3px;
+    top: 4px;
+    left: 3px;
 }
-
+.event-plit .content-holder .detailed-desc-holder ul li:first-child img {
+    top: 0px;
+    left: 3px;
+}
 /*//insftitutions//*/
 .insftitutions h1 {
     color: #454545;
@@ -1869,6 +1894,7 @@ color: #454545;
     display: inline-block;
     width: 30px;
     vertical-align: middle;
+    cursor: pointer;
 }
 .inst-sorting .sorts-line .sorts-bttns .spans-group .strng {
     width: 24px;
@@ -1952,6 +1978,9 @@ color: #454545;
 }
 .main-inst-list .list-item .inst-label-holder {
     text-align: center;
+}
+.main-inst-list.rest.list-type-2 .list-item .inst-label-holder {
+    display: none;
 }
 .main-inst-list .list-item .inst-label-holder span {
     color: #d95600;
@@ -2052,7 +2081,7 @@ color: #454545;
     background: transparent;
 }
 .main-inst-list.list-type-2 .list-item .content-holder {
-    padding-top: 18px;
+    padding-top: 11px;
     max-width: 630px;
 }
 .main-inst-list.list-type-2 .list-item .content-holder h1 {
@@ -3134,7 +3163,7 @@ color: #454545;
     position: relative;
     margin-bottom: 16px;
 }
-.registration-form .form-group:after {
+.registration-form .inputs-holder .form-group:after {
     content: '';
     position: absolute;
     right: -19px;
@@ -3270,3 +3299,45 @@ color: #454545;
     width: 190px;
 }
 
+/*/////////////input-file/////////////////*/
+.file {
+    position: relative;
+}
+.file label {
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    padding: 5px 20px;
+    pointer-events: none;
+    transition: all .4s;
+}
+.file input[type="file"] {
+    cursor: pointer;
+    display: inline-block;
+    left: 0;
+    opacity: 0.01;
+    position: absolute;
+    top: 0;
+}
+.file input[type="file"]:hover + label,
+.file input[type="file"]:focus + label {
+    background: #eee;
+    color: #000;
+}
+.file input[type="file"]:valid + label {
+    background-color: #ff0000;
+}
+.file label {
+    width: 100%;
+    text-align: center;
+    color: #454545;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    height: 47px;
+    background: #bfbfbf;
+    padding-top: 11px;
+}

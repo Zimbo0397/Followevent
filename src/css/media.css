@@ -9,6 +9,10 @@
 	    line-height: 34px;
 	    max-width: 420px;
 	}
+	.main-inst-list.w-events.list-type-2 .list-item .inst-label-holder {
+	    text-align: left;
+	    margin-left: 20px;
+	}
 }
 @media (max-width: 1320px) {
 	.main-inst-list.list-type-2.results .list-item {
@@ -106,8 +110,10 @@
 		position: relative;
 	}
 	.main-inst-list.list-type-2 .list-item .img-part {
-		position: relative;
-		width: 240px;
+	    position: relative;
+	    width: 450px;
+	    height: 297px;
+	    margin: 0 auto;
 	}
 	.main-inst-list.list-type-2 .list-item {
 		padding: 15px;
@@ -455,7 +461,9 @@
 	}
 }
 @media (max-width: 767px) {
-	.user-line .right-block .image-holder 
+	.inst-card.events.bott {
+		margin-bottom: 0;
+	}
 	.main-navbar .container-fluid {
 		position: absolute;
 		z-index: 5;
@@ -534,9 +542,9 @@
 	.main-inst-list .list-item {
 		height: 558px;
 	}
-	.main-inst-list.list-type-2 .list-item .img-part {
+/*	.main-inst-list.list-type-2 .list-item .img-part {
 		width: 361px;
-	}
+	}*/
 	.main-inst-list .list-item .img-part {
 		height: 238px;
 	}
@@ -647,7 +655,7 @@
 	.registration-form .white-wraper {
 		padding-bottom: 40px;
 	}
-	.registration-form .form-group:after {
+	.registration-form .inputs-holder .form-group:after {
 	    right: 1px;
     	top: -28px;
 	}
@@ -683,6 +691,7 @@
 	}
 	.main-inst-list.list-type-2 .list-item .img-part {
 		width: 100%;
+		height: auto;
 	}
 	.cinema-schedule.tcs .floor-number .number-holder {
 		min-width: 280px;
