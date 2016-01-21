@@ -242,6 +242,7 @@ a:hover {
     color: white;
     position: relative;
     right: -11px;
+    text-shadow: -1px 0px 3px rgba(81, 81, 81, 1);
 }
 .footer .f-content .f-logo h1 .color {
     color: #d95600;
@@ -3116,6 +3117,12 @@ color: #454545;
     background: #e5e5e5;
    top: -4px;
     right: -233px;
+}
+.registration-form .row-fluid  {
+    height: 100%;
+}
+.registration-form .span9 {
+    height: 100%;
 }
 .registration-form .white-wraper {
     padding-top: 48px;
