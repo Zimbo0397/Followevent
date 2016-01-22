@@ -15,6 +15,21 @@
 	}
 }
 @media (max-width: 1320px) {
+	.main-inst-list.list-type-2 .list-item.participant .content-holder .people-social {
+		text-align: center;
+	}
+	.main-inst-list.list-type-2 .list-item.participant .content-holder .bnt-holder {
+		margin: 0 auto;
+	}
+	.main-inst-list.list-type-2 .list-item.participant .content-holder {
+		padding-right: 0;
+	}
+	.main-inst-list.list-type-2 .list-item.participant .content-holder h1 {
+		text-align: center;
+	}
+	.main-inst-list.list-type-2 .list-item.participant .img-part {
+		height: 211px;
+	}
 	.main-inst-list.list-type-2.results .list-item {
 		padding-left: 320px;
 		padding-top: 0;

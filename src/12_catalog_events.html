@@ -8,6 +8,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/jquery-ui.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/fonts.css">
 		<link rel="stylesheet" href="css/main.css">
@@ -147,16 +148,10 @@
 									<ul class="list-inline">
 										<li>
 											<div class="dropdown">
-												<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-													Дата
+												<div class="psbtn">
+													<p> Дата <input type="text" id="datepicker"></p>
 													<span class="caret"></span>
-												</button>
-												<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-													<li><a href="#">12.05.2015</a></li>
-													<li><a href="#">12.05.2015</a></li>
-													<li><a href="#">12.05.2015</a></li>
-													<li><a href="#">12.05.2015</a></li>
-												</ul>
+												</div>
 											</div>
 										</li>
 										<li>
@@ -1255,11 +1250,16 @@
 			</section>
 		</div>
 		<script src="js/vendor/jquery-2.1.4.min.js"></script>
-
+		<script src="js/vendor/jquery-ui.min.js"></script>
 		<script src="js/bootstrap.js"></script>
 		<script src="js/plugins.js"></script>
 		<script src="js/main.js"></script>
 		<script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
     	<script src="js/icon_customImage.js" type="text/javascript"></script>
+    	<script>
+    	  $(function() {
+		    $( "#datepicker" ).datepicker();
+		  });
+		</script>
 	</body>
 </html>

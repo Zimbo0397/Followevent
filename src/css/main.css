@@ -55,6 +55,81 @@ a:hover {
     left: 48px;
 }
 
+/*//////////////people-social/////////////////*/
+.people-social {
+    margin-top: 8px;
+}
+.people-social .image-holder {
+    height: 26px;
+    width: 26px;
+    max-height: 300px;
+}
+.people-social .image-holder:hover {
+    opacity: .8;
+}
+
+
+/*///////////////label-holder////////////////*/
+.label-holder {
+    text-align: center;
+}
+.label-holder .label-wrap {
+    width: 165px;
+    display: inline-block;
+    position: relative;
+}
+.label-holder .label-bg {
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background: #a8a8a8;
+    top: 10px;
+}
+.stock-label {
+    position: relative;
+    top: -11px;
+}
+.stock-label .label-holder .label-bg {
+    top: 17px;
+}
+.label-holder.grn .label-bg {
+    background: #b8c98f;
+} 
+.label-holder.blue .label-bg {
+    background: #a6c7d8;
+}
+.label-holder.orng .label-bg {
+    background: #edaf8f;
+}
+.label-holder span {
+    color: #454545;
+    font-family: Lora;
+    font-size: 14px;
+    font-style: italic;
+    background: #e5e5e5;
+    z-index: 1;
+    position: relative;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.stock-label .label-holder span {
+    color: #d46646;
+    font-family: Lora;
+    font-size: 25px;
+    font-weight: 700;
+    font-style: italic;
+}
+.label-holder.grn span {
+    color: #7b981a;
+}
+.label-holder.blue span {
+    color: #6194bf;
+}
+.label-holder.orng span {
+    color: #d95600;
+}
+
+
 /*/////////#scrollUp////////////*/
 #scrollUp {
     position: fixed;
@@ -784,7 +859,7 @@ color: #454545;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    letter-spacing: -1.5px;
+    letter-spacing: -0.5px;
 }
 .event-plit .content-holder .type-event-list ul li.bg-none a {
     background: transparent;
@@ -1824,7 +1899,8 @@ color: #454545;
     height: 52px;
     padding-left: 21px;
 }
-.main-filters .dropdowns-line .btn .caret {
+.main-filters .dropdowns-line .btn .caret,
+.main-filters .dropdowns-line .psbtn .caret {
     position: absolute;
     right: 19px;
     top: 23px;
@@ -1833,6 +1909,21 @@ color: #454545;
     border-left: 10px solid transparent;
     color: #9a9a9a;
 }
+.main-filters .dropdowns-line .psbtn input {
+    height: 52px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+.main-filters .dropdowns-line .psbtn p  {
+    padding-left: 21px;
+    margin: 0;
+    color: #454545;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 100;
+}
+.main-filters .dropdowns-line .psbtn:after,
 .main-filters .dropdowns-line button:after {
     content: "";
     height: 36px;
@@ -1944,10 +2035,57 @@ color: #454545;
     background: #e5e5e5;
     margin-bottom: 25px;
 }
+.main-inst-list .list-item.participant .img-part .image-holder {
+    height: 197px;
+    width: 197px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.main-inst-list .list-item.participant .img-part .image-holder img  {
+    height: 100%;
+}
+.main-inst-list .list-item.participant .content-holder h1 {
+    text-transform: uppercase;
+}
+.main-inst-list .list-item.participant .content-holder h1 small {
+    text-transform: none;
+    color: #565656;
+    font-family: Lora;
+    font-size: 14px;
+    font-weight: 400;
+}
+.main-inst-list .list-item.participant .bnt-holder {
+    max-width: 300px;
+    display: block;
+    background: #a0cb38;
+    color: #454545;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    text-align: center;
+}
+.main-inst-list .list-item .event-stats {
+    color: #6194bf;
+    font-family: Lora;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 18px;
+    text-align: right;
+}
+.main-inst-list .list-item .event-stats.orng {
+    color: #d95600;
+}
+.main-inst-list .items-holder.results .list-item .content-holder {
+    max-height: 198px;
+}
 /*.main-inst-list .list-item .image-holder {
     height: 198px;
 }*/
-.main-inst-list .list-item .img-part {
+.main-inst-list  .list-item .img-part {
     position: relative;
     height: 198px;
 }
@@ -2304,62 +2442,7 @@ color: #454545;
     padding-top: 10px;
     margin-bottom: 13px;
 }
-.cinema-schedule .schedule-item .label-holder {
-    text-align: center;
-}
-.cinema-schedule .schedule-item .label-holder .label-wrap {
-    width: 165px;
-    display: inline-block;
-    position: relative;
-}
-.cinema-schedule .schedule-item .label-holder .label-bg {
-    position: absolute;
-    height: 2px;
-    width: 100%;
-    background: #a8a8a8;
-    top: 10px;
-}
-.cinema-schedule .schedule-item .stock-label {
-    position: relative;
-    top: -11px;
-}
-.cinema-schedule .schedule-item .stock-label .label-holder .label-bg {
-    top: 17px;
-}
-.cinema-schedule .schedule-item .label-holder.grn .label-bg {
-    background: #b8c98f;
-} 
-.cinema-schedule .schedule-item .label-holder.blue .label-bg {
-    background: #a6c7d8;
-}
-.cinema-schedule .schedule-item .label-holder.orng .label-bg {
-    background: #edaf8f;
-}
-.cinema-schedule .schedule-item .label-holder span {
-    color: #454545;
-    font-family: Lora;
-    font-size: 14px;
-    font-style: italic;
-    background: #e5e5e5;
-    z-index: 1;
-    position: relative;
-}
-.cinema-schedule .schedule-item .stock-label .label-holder span {
-    color: #d46646;
-    font-family: Lora;
-    font-size: 25px;
-    font-weight: 700;
-    font-style: italic;
-}
-.cinema-schedule .schedule-item .label-holder.grn span {
-    color: #7b981a;
-}
-.cinema-schedule .schedule-item .label-holder.blue span {
-    color: #6194bf;
-}
-.cinema-schedule .schedule-item .label-holder.orng span {
-    color: #d95600;
-}
+
 
 .cinema-schedule .schedule-item .top-desc h2 {
     color: #454545;
@@ -2724,17 +2807,6 @@ color: #454545;
 .peoples-list .people-item .bott-desc span {
     font-size: 16px;
     font-weight: 100;
-}
-.peoples-list .people-item .people-social {
-    margin-top: 8px;
-}
-.peoples-list .people-item .people-social .image-holder {
-    height: 26px;
-    width: 26px;
-    max-height: 300px;
-}
-.peoples-list .people-item .people-social .image-holder:hover {
-    opacity: .8;
 }
 
 .peoples-list .people-item .btn-holder {
