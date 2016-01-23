@@ -15,6 +15,30 @@
 	}
 }
 @media (max-width: 1320px) {
+	.event-desc .desc-holder {
+		padding-left: 5px;
+    	padding-right: 30px;
+	}
+	.menu-list.edit .menu-list-item {
+		height: 449px;
+	}
+	.registration-form.pers-area.menu-select .inputs-holder.bott-text {
+		width: 915px;
+	}
+	.registration-form .menu-block {
+		left: 71px;
+	}
+	.registration-form.pers-area.menu-select .inputs-holder {
+		width: 593px;
+		left: 13px;
+	}
+	.registration-form.pers-area .image-block {
+		right: -7px;
+	}
+	.registration-form.pers-area .inputs-holder  {
+		width: 582px;
+		left: -72px;
+	}
 	.main-inst-list.list-type-2 .list-item.participant .content-holder .people-social {
 		text-align: center;
 	}
@@ -263,8 +287,48 @@
 	.gallery .slider-holder .bx-wrapper .bx-prev {
 		left: 9px;
 	}
+	.modals-holder .modal-dialog {
+		width: 650px;
+	}
+	.modals-holder .modal-dialog .modal-body {
+		text-align: center;
+	}
+	.registration-form.pers-area.menu-select .inputs-holder {
+	    margin-top: 40px;
+    	left: -13px;
+	}
 }
 @media (max-width: 991px) {
+	.btns-row {
+		text-align: center;
+	}
+	.event-desc .desc-holder {
+	    max-width: 578px;
+	    padding: 0;
+	}
+	.registration-form.pers-area.menu-select .inputs-holder.bott-text {
+		width: 589px;
+	}
+	.registration-form .menu-block {
+		left: 0;
+		margin: 0 auto; 
+	}
+	.upload-section .side-btns {
+		display: block;
+		width: auto;
+		text-align: right;
+		margin-right: 10px;
+	}
+	.creating-galery .btn-holder {
+		margin-bottom: 20px;
+	}
+	.registration-form.pers-area .form-group .input-holder {
+		text-align: left;
+	}
+	.registration-form.pers-area .inputs-holder {
+		left: 0;
+    	margin: 36px auto;
+	}
 	.gallery .bx-wrapper .bx-controls-direction a {
 		margin-bottom: -79px;
 	}
@@ -476,6 +540,93 @@
 	}
 }
 @media (max-width: 767px) {
+	.event-desc .desc-holder {
+	    max-width: 100%;
+	    padding-left: 12px;
+	    padding-right: 19px;
+	}
+	.modals-holder .modal-dialog .registration-form a .create-btn {
+		width: 100%;
+	}
+	.modals-holder .modal-dialog .registration-form.pers-area.menu-select .inputs-holder {
+		display: block;
+	}
+	.modals-holder .modal-dialog .modal-body form {
+		display: block;
+		padding-right: 20px;
+		padding-left: 6px;
+	}
+	.modals-holder .modal-dialog .modal-body {
+		padding: 3px;
+	}
+	.modals-holder .modal-dialog {
+		width: 100%;
+		margin: 0;
+	} 
+	.select-types.menu-edit .select-header .dropdown {
+		margin-bottom: 40px;
+	}
+	.general-btns {
+		padding: 5px;
+	}
+	.registration-form .inputs-holder .input-holder.blocks {
+		height: auto;
+	}
+	.registration-form.pers-area.menu-select .inputs-holder {
+		width: auto;
+	    left: 0;
+	    padding: 5px;
+	}
+	 .registration-form.pers-area.menu-select .inputs-holder.bott-text {
+	 	width: 280px;
+	    margin: 35px auto;
+	    left: 0;
+	    padding-right: 3px;
+    	padding-left: 4px;
+	 }
+	.registration-form .menu-block {
+		width: 280px;
+	}
+	.registration-form.pers-area .image-block {
+		right: 0;
+	}
+	.upload-section .work-set .desc-block {
+		display: block;
+	}
+	.upload-section .work-set .image-holder {
+		position: static;
+		margin-left: 0;
+	}
+	.upload-section .work-set {
+		max-width: 100%;
+		padding-left: 10px;
+	}
+	.creating-galery .btn-holder {
+		width: 280px;
+	}
+	.personal-social ul li {
+		margin-left: 6px;
+	}
+	.registration-form.pers-area .inputs-holder {
+		padding-left: 13px;
+		padding-right: 20px;
+	}
+	.registration-form.pers-area .inputs-holder {
+		width: 100%;
+	}
+	.registration-form .inputs-holder .input-holder.blocks {
+		width: 100%;
+	}
+	.registration-form.pers-area.menu-select .inputs-holder {
+		text-align: left;
+	}
+	.registration-form.pers-area .inputs-holder .form-group .side-desc {
+		position: static;
+		margin-bottom: 10px;
+	}
+	.registration-form.pers-area .inputs-holder .form-group {
+		padding-left: 0;
+	}
 	.inst-card.events.bott {
 		margin-bottom: 0;
 	}
@@ -664,6 +815,22 @@
 	}
 }
 @media (max-width: 540px) {
+	.select-header .remove-btn {
+		bottom: 3px;
+	}
+	.select-header .go-back img {
+		display: none;
+	}
+	.select-header .remove-btn img {
+		display: none;
+	}
+	.menu-edit-bts .btn-holder {
+		width: 280px;
+	}
+	.menu-list.edit .menu-list-item {
+		height: auto;
+		padding-bottom: 45px;
+	}
 	.envent-video .video-holder iframe {
 		height: 175px;
 	}

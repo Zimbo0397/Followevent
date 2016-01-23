@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
-		<title>13_register</title>
+		<title>personal_area</title>
 		<meta name="description" content="">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -125,29 +125,54 @@
 				</div>
 			</section>
 
+
+
+			
 			<section class="reg-header">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
 							<h1>
-								Регистрация
+								Личный кабинет
 							</h1>
 						</div>
 					</div>
 				</div>
 			</section>
 
-			<section class="registration-form">
+			<section class="about-inst red">
+				<div class="container">
+					<div class="white-wraper gray">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="nav-holder">
+									<div class="inst-mini-nav">
+										<ul class="list-inline">
+											<li class="active"><a href="">Профиль</a></li>
+											<li><a href="">Профиль заведения</a></li>
+											<li><a href="">События</a></li>
+											<li><a href="">Избранное</a></li>
+											<li><a href="">Сообщения</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="registration-form pers-area">
 				<div class="container">
 					<div class="white-wraper">
 						<div class="row">
-							<div class="col-md-6">
+							<div class="col-md-5">
 								<div class="image-block">
 									<div class="image-input">
 										<div class="row-fluid">
 											<div class="span9">
 												<div class="image-holder">
-													<img src="img/content/foto-input.jpg" id="target" alt="Jcrop Image" />
+													<img src="img/content/896680.jpg" id="target" alt="Jcrop Image" />
 												</div>
 											</div>
 										</div>
@@ -163,31 +188,420 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-md-6">
+							<div class="col-md-7">
 								<form action="">
 									<div class="inputs-holder">
 										<div class="form-group important">
-											<input type="text" placeholder="E-mail">
+											<div class="side-desc">
+												Название заведения
+											</div>
+											<input type="text" placeholder="Синабон">
 										</div>
 										<div class="form-group important">
-											<input type="text" placeholder="Имя">
+											<div class="side-desc">
+												Адрес заведения
+											</div>
+											<div class="input-holder">
+												<input type="text" placeholder="г.Иваново, ул Декабристов 12">
+												<i class="fa fa-map-marker"></i>
+											</div>
 										</div>
 										<div class="form-group important">
-											<input type="text" placeholder="Пароль">
+											<div class="side-desc">
+												Контактный телефон 
+											</div>
+											<div class="input-holder">
+												<input type="text" placeholder="8916-8732299">
+												<i class="fa fa-phone"></i>
+											</div>
 										</div>
-										<div class="form-group important">
-											<input class="error" type="text" placeholder="Повтор Пароля">
+										<div class="form-group">
+											<div class="side-desc">
+												Сайт заведения
+											</div>
+											<div class="input-holder">
+												<input type="text" placeholder="www">
+												<i class="fa fa-globe"></i>
+											</div>
 										</div>
-										<div class="input-desc">
-											<span>Неверный пароль</span>
-										</div>
-										<a href="">
-											<div class="create-btn">
-													Создать
+										<div class="form-group">
+											<div class="side-desc">
+												Ссылка на группу заведения в соц. сетях
+											</div>
+											<div class="input-holder">
+												<div class="personal-social">
+													<ul class="list-inline">
+														<li>
+															<div class="img-block active">
+																<i class="fa fa-facebook-square"></i>
+															</div>
+														</li>
+														<li>
+															<div class="img-block">
+																<i class="fa fa-instagram"></i>
+															</div>
+														</li>
+														<li>
+															<div class="img-block">
+																<i class="fa fa-twitter-square"></i>
+															</div>
+														</li>
+														<li>
+															<div class="img-block">
+																<i class="fa fa-vk"></i>
+															</div>
+														</li>
+													</ul>
 												</div>
 											</div>
-										</a>
+											<div class="input-holder">
+												<input type="text">
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="side-desc">
+												Видео
+											</div>
+											<div class="input-holder">
+												<input type="text" >
+												<i class="fa fa-youtube"></i>
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="side-desc">
+												Кредитные карты
+											</div>
+											<div class="input-holder">
+												<div class="checkbox">
+													<input type="checkbox" id="checkbox">
+													<label for="checkbox">MasterCard / VISA</label>
+												</div>
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="side-desc">
+												Парковка
+											</div>
+											<div class="input-holder">
+												<div class="checkbox">
+													<input type="checkbox" id="checkbox-1">
+													<label for="checkbox-1"></label>
+												</div>
+											</div>
+										</div>
 								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="creating-galery">
+				<div class="container">
+					<div class="white-wraper">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="galery-header">
+									<h1>Галерея</h1>
+									<hr class="type-1">
+								</div>
+							</div>
+							<div class="col-md-12">
+								<div class="galery-top-btns">
+									<ul class="list-inline">
+										<li>
+											<a href="">
+												<span class="btn-holder">Добавить фотографии</span>
+											</a>
+										</li>
+										<li>
+											<a href="">
+												<span class="btn-holder grn">Загрузить все добавленные</span>
+											</a>
+										</li>
+										<li>
+											<a href="">
+												<span class="btn-holder red">Удалить все</span>
+											</a>
+										</li>
+									</ul>
+								</div>
+								<form action="">
+									<div class="upload-section">
+										<ul>
+											<li>
+												<hr>
+												<div class="work-set">
+													<div class="image-holder">
+														<img src="img/content/lnst-list-item-8.jpg" alt="">
+													</div>
+													<div class="desc-block">
+														<span>Главный зал.jpg</span>
+													</div>
+													<div class="progress-block">
+														<span>103.15KB</span>
+														<div class="progress">
+															<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+																<span class="sr-only">60% Complete</span>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="side-btns">
+													<a href="">
+														<span class="btn-holder grn">загрузить</span>
+													</a>
+													<a href="">
+														<span class="btn-holder red">отменить</span>
+													</a>
+												</div>
+											</li>
+											<li>
+												<hr>
+												<div class="work-set">
+													<div class="image-holder">
+														<img src="img/content/lnst-list-item-8.jpg" alt="">
+													</div>
+													<div class="desc-block">
+														<span>Главный зал.jpg</span>
+													</div>
+													<div class="progress-block">
+														<span>103.15KB</span>
+														<div class="progress">
+															<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+																<span class="sr-only">60% Complete</span>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="side-btns">
+													<a href="">
+														<span class="btn-holder grn">загрузить</span>
+													</a>
+													<a href="">
+														<span class="btn-holder red">отменить</span>
+													</a>
+												</div>
+											</li>
+											<li>
+												<hr>
+												<div class="work-set">
+													<div class="image-holder">
+														<img src="img/content/lnst-list-item-8.jpg" alt="">
+													</div>
+													<div class="desc-block">
+														<span>Главный зал.jpg</span>
+													</div>
+													<div class="progress-block">
+														<span>103.15KB</span>
+														<div class="progress">
+															<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+																<span class="sr-only">60% Complete</span>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="side-btns">
+													<a href="">
+														<span class="btn-holder grn">загрузить</span>
+													</a>
+													<a href="">
+														<span class="btn-holder red">отменить</span>
+													</a>
+												</div>
+											</li>
+											<li>
+												<hr>
+												<div class="work-set">
+													<div class="image-holder">
+														<img src="img/content/lnst-list-item-8.jpg" alt="">
+													</div>
+													<div class="desc-block">
+														<span>Главный зал.jpg</span>
+													</div>
+													<div class="progress-block">
+														<span>103.15KB</span>
+														<div class="progress">
+															<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+																<span class="sr-only">60% Complete</span>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="side-btns">
+													<a href="">
+														<span class="btn-holder grn">загрузить</span>
+													</a>
+													<a href="">
+														<span class="btn-holder red">отменить</span>
+													</a>
+												</div>
+											</li>
+											<li>
+												<hr>
+												<div class="work-set">
+													<div class="image-holder">
+														<img src="img/content/lnst-list-item-8.jpg" alt="">
+													</div>
+													<div class="desc-block">
+														<span>Главный зал.jpg</span>
+													</div>
+													<div class="progress-block">
+														<span>103.15KB</span>
+														<div class="progress">
+															<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+																<span class="sr-only">60% Complete</span>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="side-btns">
+													<a href="">
+														<span class="btn-holder grn">загрузить</span>
+													</a>
+													<a href="">
+														<span class="btn-holder red">отменить</span>
+													</a>
+												</div>
+											</li>
+											<li>
+												<hr>
+												<div class="work-set">
+													<div class="image-holder">
+														<img src="img/content/lnst-list-item-8.jpg" alt="">
+													</div>
+													<div class="desc-block">
+														<span>Главный зал.jpg</span>
+													</div>
+													<div class="progress-block">
+														<span>103.15KB</span>
+														<div class="progress">
+															<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+																<span class="sr-only">60% Complete</span>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="side-btns">
+													<a href="">
+														<span class="btn-holder grn">загрузить</span>
+													</a>
+													<a href="">
+														<span class="btn-holder red">отменить</span>
+													</a>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="select-types">
+				<div class="container">
+					<div class="white-wraper">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="select-header">
+									<h1>Тип - </h1>
+									<div class="dropdown">
+										<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+							               Ресторан
+											<span class="caret"></span>
+										</button>
+										<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+											<li><a href="#">Ресторан</a></li>
+											<li><a href="#">Магазин</a></li>
+											<li><a href="#">Кинотеатр</a></li>
+											<li><a href="#">Торговый центр</a></li>
+										</ul>
+									</div>
+									<hr class="type-1">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="registration-form pers-area menu-select">
+				<div class="container">
+					<div class="white-wraper">
+						<div class="row">
+							<div class="col-md-7">
+								<form action="">
+									<div class="inputs-holder">
+										<div class="form-group">
+											<div class="side-desc">
+												Музыка
+											</div>
+											<input type="text" placeholder="Чилаут">
+										</div>
+										<div class="form-group">
+											<div class="side-desc">
+												Кухня
+											</div>
+											<div class="input-holder blocks">
+												<span>Европейская <a href=""><img src="img/icons/close-btn-img.png" alt=""></a></span>
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="side-desc">
+												Средний счет 
+											</div>
+											<div class="input-holder">
+												<input type="text" placeholder="500-1000 р.">
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="side-desc">
+												Мы предлагаем
+											</div>
+											<div class="input-holder blocks lg">
+												<span>Открытая веранда <a href=""><img src="img/icons/close-btn-img.png" alt=""></a></span>
+												<span>Кальян <a href=""><img src="img/icons/close-btn-img.png" alt=""></a></span>
+												<span>Живая музыка <a href=""><img src="img/icons/close-btn-img.png" alt=""></a></span>
+											</div>
+										</div>
+								</form>
+							</div>
+						</div>
+						<div class="col-md-5">
+							<div class="menu-block">
+								<div class="image-holder">
+									<img src="img/icons/menu-icon-t.png" alt="">
+								</div>
+								<div class="url-holder">
+									<a href="">редактировать</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<form action="">
+								<div class="inputs-holder bott-text">
+									<div class="form-group">
+										<div class="side-desc">
+											О заведении (текст)
+										</div>
+										<textarea></textarea>
+										<div class="text-limit">
+											3000
+										</div>
+									</div>
+								</div>
+							</form>
+						</div>
+						<div class="col-md-12">
+							<div class="general-btns">
+								<a href="">
+									<span class="btn-holder"><span class="big">+</span>Добавить еще</span>
+								</a>
+								<a href="">
+									<span class="btn-holder grn">Сохранить</span>
+								</a>
 							</div>
 						</div>
 					</div>

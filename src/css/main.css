@@ -431,7 +431,7 @@ a:hover {
     margin: auto;
 }
 .top-bunner .no-img {
-    height: 248px;
+    height: 190px;
 }
 /*//user-line//*/
 .user-line {
@@ -1593,6 +1593,10 @@ color: #454545;
 .nav-holder .inst-mini-nav ul li.active a  {
     color: #d95600;
 }
+.about-inst.red {
+    margin-top: 31px;
+    margin-bottom: 5px;
+}
 .about-inst .g-desc-body {
     margin-top: 40px;
     color: black;
@@ -2299,12 +2303,19 @@ color: #454545;
 .menu-list {
     margin-bottom: 31px;
 }
+.menu-list.edit {
+    margin-top: 70px;
+    margin-bottom: 13px;
+}
 .menu-list .head-holder {
     text-align: center;
     margin-bottom: 30px;
 }
 .menu-list .image-holder {
     height: 198px;
+}
+.menu-list-item.add-item .image-holder {
+    height: 100%;
 }
 .menu-list .list-head {
     text-align: center;
@@ -2323,6 +2334,10 @@ color: #454545;
     height: 418px;
     background: #e5e5e5;
     margin-bottom: 26px;
+}
+.menu-list.edit .menu-list-item {
+    height: 509px;
+    position: relative;
 }
 .menu-list .menu-list-item .top-desc {
     height: 159px;
@@ -2359,6 +2374,9 @@ color: #454545;
     padding-right: 20px;
     padding-left: 20px;
 }
+.menu-list.edit .menu-list-item .down-desc {
+    margin-bottom: 19px;
+}
 .menu-list .menu-list-item .down-desc span {
     font-family: Lora;
     font-size: 18px;
@@ -2368,7 +2386,37 @@ color: #454545;
 .menu-list .menu-list-item .down-desc span.color {
     color: #7b981a;
 }
-
+.menu-list.edit .remove-btn {
+    width: 100%;
+    height: 45px;
+    padding-top: 10px;
+    background-color: #d95600;
+    text-align: center;
+    color: white;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+.menu-list.edit .edit-btn {
+    width: 100%;
+    height: 45px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: #6194bf;
+    color: white;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 0;
+}
+.menu-list.edit .edit-btn.grn {
+    background: #a0cb38;
+}
 /*/////////////main-sharing////////////////////////*/
 
 .main-sharing .sharing-holder {
@@ -3182,6 +3230,9 @@ color: #454545;
 .registration-form {
     margin-bottom: 78px;
 }
+.registration-form.pers-area {
+    margin-bottom: 0;
+}
 .registration-form .image-block {
     position: relative;
     height: 429px;
@@ -3189,6 +3240,11 @@ color: #454545;
     background: #e5e5e5;
    top: -4px;
     right: -233px;
+}
+.registration-form.pers-area .image-block {
+    height: 363px;
+    top: 2px;
+    right: -153px;
 }
 .registration-form .row-fluid  {
     height: 100%;
@@ -3200,8 +3256,17 @@ color: #454545;
     padding-top: 48px;
     padding-bottom: 89px;
 }
+.registration-form.pers-area .white-wraper {
+    padding-bottom: 55px;
+}
 .registration-form .image-block .image-input {
     height: 301px;
+}
+.registration-form.pers-area .image-block .img-info {
+    margin-top: 52px;
+}
+.registration-form.pers-area .image-block .image-input {
+    height: 200px;
 }
 .registration-form .image-block .img-info {
     text-align: center;
@@ -3238,11 +3303,37 @@ color: #454545;
     position: relative;
     left: 9px;
 }
+.registration-form.pers-area .inputs-holder {
+    left: -27px;
+    top: 4px;
+    height: auto;
+}
+.registration-form.pers-area.menu-select .inputs-holder {
+    left: 148px;
+    top: 7px;
+}
+.registration-form.pers-area .inputs-holder  {
+    width: 591px;
+}
 .registration-form .form-group {
     position: relative;
     margin-bottom: 16px;
 }
-.registration-form .inputs-holder .form-group:after {
+.registration-form.pers-area .inputs-holder .form-group {
+    padding-left: 220px;
+}
+.registration-form.pers-area .inputs-holder .form-group .side-desc {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    color: #454545;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 220px;
+    text-align: left;
+}
+.registration-form .inputs-holder .form-group.important:after {
     content: '';
     position: absolute;
     right: -19px;
@@ -3263,6 +3354,24 @@ color: #454545;
     font-family: Roboto;
     font-size: 18px;
     font-weight: 400;
+}
+.registration-form.pers-area .form-group input {
+    padding-left: 44px;
+}
+.registration-form.pers-area.profile .form-group input {
+    padding-left: 15px;
+}
+.registration-form.pers-area .form-group .input-holder {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+}
+.registration-form.pers-area .form-group .input-holder i {
+    position: absolute;
+    left: 11px;
+    top: 11px;
+    color: #898989;
+    font-size: 25px;
 }
 .registration-form .form-group input.error {
     border: 3px solid #ff0026;
@@ -3390,6 +3499,10 @@ color: #454545;
     pointer-events: none;
     transition: all .4s;
 }
+.pers-area .file label {
+    background: #3d95c2;
+    color: #fff;
+} 
 .file input[type="file"] {
     cursor: pointer;
     display: inline-block;
@@ -3419,4 +3532,584 @@ color: #454545;
     height: 47px;
     background: #bfbfbf;
     padding-top: 11px;
+}
+
+/* CHECKBOX */
+
+/* Base for label styling */
+.checkbox input[type="checkbox"]:not(:checked),
+.checkbox input[type="checkbox"]:checked {
+    left: -9999px;
+    position: absolute;
+}
+.checkbox input[type="checkbox"]:not(:checked) + label,
+.checkbox input[type="checkbox"]:checked + label {
+    cursor: pointer;
+    position: relative;
+    padding-left: 50px;
+    color: #5b5b5b;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* checkbox aspect */
+.checkbox input[type="checkbox"]:not(:checked) + label:before,
+.checkbox input[type="checkbox"]:checked + label:before {
+    background: #eee;
+    content: '';
+    left: -2px;
+    top: -13px;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+}
+/* checked mark aspect */
+.checkbox input[type="checkbox"]:not(:checked) + label:after,
+.checkbox input[type="checkbox"]:checked + label:after {
+    content: '';
+    background: url(../img/icons/v-icon.png) no-repeat;
+    position: absolute;
+    top: -3px; left: 4px;
+    font-size: 18px;
+    height: 29px;
+    width: 35px;
+    color: #000;
+    transition: all .2s;
+}
+/* checked mark aspect changes */
+.checkbox input[type="checkbox"]:not(:checked) + label:after {
+    opacity: 0;
+    transform: rotate(-90deg) scale(0);
+}
+.checkbox input[type="checkbox"]:checked + label:after {
+    opacity: 1;
+    transform: rotate(0deg) scale(1);
+}
+/* disabled checkbox */
+.checkbox input[type="checkbox"]:disabled:not(:checked) + label:before,
+.checkbox input[type="checkbox"]:disabled:checked + label:before {
+    box-shadow: none;
+    border-color: #bbb;
+    background-color: #ddd;
+}
+.checkbox input[type="checkbox"]:disabled:checked + label:after {
+    color: #999;
+}
+.checkbox input[type="checkbox"]:disabled + label {
+    color: #aaa;
+}
+/* accessibility */
+.checkbox input[type="checkbox"]:checked:focus + label:before,
+.checkbox input[type="checkbox"]:not(:checked):focus + label:before {
+    border: 1px solid #eee;
+}
+.checkbox input[type="checkbox"]:checked:focus + label:after,
+.checkbox input[type="checkbox"]:not(:checked):focus + label:after {
+}
+/* END CHECKBOX */
+
+/*//////////////personal-social//////////////////////*/
+.personal-social ul {
+    text-align: right;
+}
+.personal-social ul li {
+    margin-left: 11px; 
+    text-align: center;
+}
+.personal-social ul li .img-block {
+    height: 45px;
+    width: 45px;
+    background: #e5e5e5;
+    position: relative;
+    padding-top: 6px;
+}
+.personal-social ul li .img-block.active {
+    border: 2px solid #acacac;
+    position: relative;
+}
+.personal-social ul li .img-block.active:after {
+    content: "";
+    height: 9px;
+    width: 15px;
+    position: absolute;
+    bottom: -9px;
+    left: 12px;
+    background: url(../img/icons/social-curret.png) no-repeat;
+}
+.registration-form.pers-area .form-group .personal-social ul li .img-block i {
+    position: static;
+    font-size: 36px;
+}
+
+
+/*//////////////////personal-galery///////////////////////*/
+.creating-galery h1 {
+    text-align: center;
+    color: #454545;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+/*///////////////galery-top-btns///////////////////////*/
+.galery-top-btns {
+    text-align: center;
+    margin-top: 21px;
+    margin-bottom: 39px;
+}
+.creating-galery .btn-holder {
+    width: 300px;
+    height: 45px;
+    display: block;
+    padding-top: 10px;
+    text-align: center;
+    background-color: #6194bf;
+    color: white;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+.creating-galery .btn-holder.grn {
+    background: #a0cb38;
+}
+.creating-galery .btn-holder.red {
+    background: #f95500;
+}
+
+/*///////////////upload-section/////////////////////////*/
+.upload-section {
+    max-width: 939px;
+    margin: 0 auto;
+}
+.upload-section ul {
+    padding-left: 0;
+}
+.upload-section ul li {
+    margin-bottom: 10px;
+}
+.upload-section ul li hr {
+    margin-bottom: 8px;
+    margin-top: 0;
+}
+.upload-section .work-set {
+    max-width: 570px;
+    padding-left: 177px;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+
+}
+.upload-section .work-set {
+    margin-right: 25px;
+}
+.upload-section .work-set .image-holder {
+    height: 58px;
+    width: 84px;
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+    left: 0;
+    top: 0px;
+}
+.upload-section .work-set .desc-block {
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+}
+.upload-section .work-set .progress-block {
+    width: 163px;
+    display: inline-block;
+    vertical-align: top;
+}
+.upload-section .work-set .progress-block .progress {
+    margin-top: 12px;
+}
+.upload-section .side-btns {
+    display: inline-block;
+    width: 350px;
+    vertical-align: top;
+}
+.upload-section .side-btns .btn-holder {
+    width: 173px;
+    display: inline-block;
+}
+
+/*//////////////////select-types//////////////////////*/
+.select-types .select-header {
+    text-align: center;
+    padding-top: 39px;
+    position: relative;
+}
+.select-types .select-header h1 {
+    display: inline-block;
+    color: #454545;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 100;
+}
+.select-types.menu-edit .select-header h1 {
+    color: #454545;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 700;
+    display: block;
+}
+.select-types .select-header .dropdown {
+    display: inline-block;
+}
+.select-types .select-header .dropdown button {
+    color: #454545;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    background: #e5e5e5;
+    padding: 0px;
+    padding-left: 14px;
+    padding-right: 15px;
+    border-radius: 7px;
+    outline: none;
+}
+.select-types.menu-edit .select-header .dropdown button { 
+    background: #fff;
+}
+.select-types .select-header .dropdown button .caret {
+    color: #909090;
+    border-top: 8px dashed;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+    margin-left: 11px;
+}
+
+
+/*/////////////////.registration-form.pers-area.menu-select////////////////////*/
+.registration-form .inputs-holder .input-holder.blocks {
+    width: 373px;
+    height: 45px;
+    background-color: #e4e4e4;
+    overflow: hidden;
+    padding: 9px;
+    padding-left: 3px
+} 
+.registration-form .inputs-holder .input-holder.blocks.lg {
+    height: 85px;
+}
+.registration-form.pers-area.menu-select .form-group input {
+    padding-left: 3px;
+}
+.registration-form .inputs-holder .input-holder.blocks span {
+    background: #fff;
+    border-radius: 5px;
+    color: black;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    vertical-align: top;
+    padding-left: 3px;
+    padding-right: 22px;
+    height: 27px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.registration-form .inputs-holder .input-holder.blocks span img {
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    height: 9px;
+    width: 9px;
+}
+.registration-form .inputs-holder.bott-text {
+    width: 939px;
+}
+.registration-form .inputs-holder textarea {
+    width: 100%;
+    min-height: 243px;
+    background: #e5e5e5;
+    outline: none;
+    resize: none;
+    border: none;
+    padding: 10px;
+}
+.registration-form .inputs-holder .text-limit {
+    color: #6194bf;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: right;
+}
+.registration-form .menu-block {
+    width: 300px;
+    height: 272px;
+    background-color: #e4e4e4;
+    position: relative;
+    left: 54px;
+    top: 7px;
+    padding: 14px;
+    position: relative;
+}
+.registration-form .menu-block .url-holder {
+    text-align: center;
+}
+.registration-form .menu-block .url-holder a  {
+    position: absolute;
+    bottom: 12px;
+    left: 80px;
+    color: #6194bf;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+.select-header .go-back {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+}
+.select-header .go-back img {
+    vertical-align: middle;
+}
+.select-header .go-back span {
+    color: #6194bf;
+    font-family: Roboto;
+    font-size: 20px;
+    vertical-align: middle;
+    font-weight: 100;
+}
+.select-header .remove-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    bottom: -4px;
+}
+.select-header .remove-btn img {
+    vertical-align: middle;
+    margin-bottom: 13px;
+}
+.select-header .remove-btn span {
+    vertical-align: middle;
+    color: #d95600;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 100;
+}
+/*///////////////////general-btns//////////////////*/
+.general-btns {
+    margin-top: 38px;
+}   
+.general-btns .btn-holder {
+    max-width: 606px;
+    height: 45px;
+    background-color: #6194bf;
+    margin: 10px auto;
+    background: #3d95c2;
+    color: white;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+}
+.general-btns .btn-holder .big {
+    margin-right: 10px;
+    font-size: 33px;
+    vertical-align: middle;
+}
+.general-btns .btn-holder.grn {
+    background: #a0cb38;
+}
+
+/*/////////////menu-edit-bts/////////////////////*/
+.menu-edit-bts {
+    text-align: center;
+    padding-bottom: 150px;
+}
+.menu-edit-bts .btn-holder {
+    display: inline-block;
+    width: 396px;
+    height: 45px;
+    background-color: #6194bf;
+    text-align: center;
+    color: white;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding-top: 10px;
+    vertical-align: middle;
+    margin-bottom: 20px;
+}
+.menu-edit-bts .btn-holder .big {
+    font-size: 34px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.menu-edit-bts .btn-holder.red {
+    background: #f95500;
+}
+.menu-edit-bts .btn-holder.grn {
+    background: #a0cb38;
+}
+
+
+/*//////////////menu-modals/////////////////*/
+..modals-holder .modal-content {
+    border-radius: 0;
+}
+.modals-holder .modal-dialog {
+    width: 1015px;
+}
+.modals-holder .modal-dialog .modal-body {
+    padding: 35px;
+    text-align: left;
+    padding-top: 10px;
+}
+.modals-holder .modal-dialog .modal-body form {
+    display: inline-block;
+    vertical-align: top;
+}
+.modals-holder .modal-dialog .modal-head h1 {
+    color: black;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 23px;
+}
+.modals-holder .modal-dialog .modal-body .image-block {
+    left: 0;
+    display: inline-block;
+}
+.modals-holder .modal-dialog .modal-body .inputs-holder {
+    left: 20px;
+    top: 0px;
+    vertical-align: top;
+}
+.modals-holder .modal-dialog .modal-body .inputs-holder textarea {
+    color: #454545;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    min-height: 179px;
+    margin-bottom: 49px;
+}
+.modals-holder .modal-dialog .registration-form a .create-btn {
+    width: 371px;
+    color: #fff;
+}
+.modals-holder .modal-dialog .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+/*///////////event-desc//////////////*/
+.event-desc {
+    text-align: center;
+    margin-top: 40px;
+}
+.event-desc .desc-holder {
+    width: 100%;
+    max-width: 932px;
+    display: inline-block;
+}
+.event-desc p {
+    text-align: left;
+    color: #454545;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+}
+.event-desc textarea {
+    min-height: 179px;
+    width: 100%;
+    background: #e5e5e5;
+    resize: none;
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+.event-desc .text-limit {
+    text-align: right;
+    color: #6194bf;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+}
+/*/////////////sex-block////////////////////*/
+.sex-block {
+    display: inline-block;
+}
+.sex-block p {
+    color: #454545;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 700;
+    background: #e5e5e5;
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    float: left;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 5px;
+    margin-right: 27px;
+}
+.sex-block .radio, .checkbox  {
+    display: inline-block;
+    margin-top: 0;
+}
+.sex-block .checkbox input[type="checkbox"]:not(:checked) + label,
+.sex-block .checkbox input[type="checkbox"]:checked + label {
+    height: 45px;
+}
+.sex-block .checkbox input[type="checkbox"]:not(:checked) + label:before,
+.sex-block .checkbox input[type="checkbox"]:checked + label:before {
+    left: 2px;
+    top: 0px;
+}
+.sex-block .checkbox input[type="checkbox"]:not(:checked) + label:after,
+.sex-block .checkbox input[type="checkbox"]:checked + label:after {
+    top: 7px;
+}
+
+
+/*/////////////btns-row/////////////////////*/
+.btns-row {
+    text-align: right;
+}
+.btns-row .btn-holder {
+    width: 293px;
+    height: 45px;
+    background-color: #6194bf;
+    color: white;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding-top: 10px;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 13px;
+}
+.btns-row .btn-holder.grn {
+    background: #a0cb38;
+}
+.btns-row .btn-holder.red {
+    background: #f95500;
 }

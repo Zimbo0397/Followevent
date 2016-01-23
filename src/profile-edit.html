@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
-		<title>13_register</title>
+		<title>profile-edit</title>
 		<meta name="description" content="">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -125,29 +125,54 @@
 				</div>
 			</section>
 
+
+
+			
 			<section class="reg-header">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
 							<h1>
-								Регистрация
+								Личный кабинет
 							</h1>
 						</div>
 					</div>
 				</div>
 			</section>
 
-			<section class="registration-form">
+			<section class="about-inst red">
+				<div class="container">
+					<div class="white-wraper gray">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="nav-holder">
+									<div class="inst-mini-nav">
+										<ul class="list-inline">
+											<li class="active"><a href="">Профиль</a></li>
+											<li><a href="">Профиль заведения</a></li>
+											<li><a href="">События</a></li>
+											<li><a href="">Избранное</a></li>
+											<li><a href="">Сообщения</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="registration-form pers-area profile">
 				<div class="container">
 					<div class="white-wraper">
 						<div class="row">
-							<div class="col-md-6">
+							<div class="col-md-5">
 								<div class="image-block">
 									<div class="image-input">
 										<div class="row-fluid">
 											<div class="span9">
 												<div class="image-holder">
-													<img src="img/content/foto-input.jpg" id="target" alt="Jcrop Image" />
+													<img src="img/content/profile-foto.jpg" id="target" alt="Jcrop Image" />
 												</div>
 											</div>
 										</div>
@@ -163,37 +188,84 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-md-6">
+							<div class="col-md-7">
 								<form action="">
 									<div class="inputs-holder">
 										<div class="form-group important">
-											<input type="text" placeholder="E-mail">
+											<div class="side-desc">
+												Имя
+											</div>
+											<input type="text" placeholder="Контантин">
 										</div>
 										<div class="form-group important">
-											<input type="text" placeholder="Имя">
+											<div class="side-desc">
+												Фамилия
+											</div>
+											<div class="input-holder">
+												<input type="text" placeholder="Константинов">
+											</div>
 										</div>
 										<div class="form-group important">
-											<input type="text" placeholder="Пароль">
+											<div class="side-desc">
+												E-mail
+											</div>
+											<div class="input-holder">
+												<input type="text" placeholder="kost@mail.ru">
+											</div>
 										</div>
-										<div class="form-group important">
-											<input class="error" type="text" placeholder="Повтор Пароля">
+										<div class="form-group">
+											<div class="side-desc">
+												Город
+											</div>
+											<div class="input-holder">
+												<input type="text" placeholder="Иваново">
+											</div>
 										</div>
-										<div class="input-desc">
-											<span>Неверный пароль</span>
-										</div>
-										<a href="">
-											<div class="create-btn">
-													Создать
+										<div class="form-group">
+											<div class="side-desc">
+												Пол
+											</div>
+											<div class="input-holder clearfix">
+												<div class="sex-block pull-left">
+													<div class="input-holder">
+														<div class="checkbox">
+															<p>M</p>
+															<input type="checkbox" id="checkbox">
+															<label for="checkbox"></label>
+														</div>
+													</div>
+												</div>
+												<div class="sex-block pull-right">
+													<div class="input-holder">
+														<p>Ж</p>
+														<div class="checkbox">
+															<input type="checkbox" id="checkbox-1">
+															<label for="checkbox-1"></label>
+														</div>
+													</div>
 												</div>
 											</div>
-										</a>
+										</div>
+										<div class="btns-row">
+											<a href="">
+												<span class="btn-holder">Изменить пароль</span>
+											</a>
+										</div>
+										<div class="btns-row">
+											<a href="">
+												<span class="btn-holder red">удалить профиль</span>
+											</a>
+											<a href="">
+												<span class="btn-holder grn">Сохранить</span>
+											</a>
+										</div>
+									</div>
 								</form>
 							</div>
 						</div>
 					</div>
 				</div>
 			</section>
-
 
 			<section class="footer spring">
 				<div class="container">

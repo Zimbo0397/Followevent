@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
-		<title>13_register</title>
+		<title>events-edit</title>
 		<meta name="description" content="">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -125,29 +125,54 @@
 				</div>
 			</section>
 
+
+
+			
 			<section class="reg-header">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
 							<h1>
-								Регистрация
+								Личный кабинет
 							</h1>
 						</div>
 					</div>
 				</div>
 			</section>
 
-			<section class="registration-form">
+			<section class="about-inst red">
+				<div class="container">
+					<div class="white-wraper gray">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="nav-holder">
+									<div class="inst-mini-nav">
+										<ul class="list-inline">
+											<li class="active"><a href="">Профиль</a></li>
+											<li><a href="">Профиль заведения</a></li>
+											<li><a href="">События</a></li>
+											<li><a href="">Избранное</a></li>
+											<li><a href="">Сообщения</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="registration-form pers-area">
 				<div class="container">
 					<div class="white-wraper">
 						<div class="row">
-							<div class="col-md-6">
+							<div class="col-md-5">
 								<div class="image-block">
 									<div class="image-input">
 										<div class="row-fluid">
 											<div class="span9">
 												<div class="image-holder">
-													<img src="img/content/foto-input.jpg" id="target" alt="Jcrop Image" />
+													<img src="img/content/141113101125.jpg" id="target" alt="Jcrop Image" />
 												</div>
 											</div>
 										</div>
@@ -163,31 +188,299 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-md-6">
+							<div class="col-md-7">
 								<form action="">
 									<div class="inputs-holder">
 										<div class="form-group important">
-											<input type="text" placeholder="E-mail">
-										</div>
-										<div class="form-group important">
-											<input type="text" placeholder="Имя">
-										</div>
-										<div class="form-group important">
-											<input type="text" placeholder="Пароль">
-										</div>
-										<div class="form-group important">
-											<input class="error" type="text" placeholder="Повтор Пароля">
-										</div>
-										<div class="input-desc">
-											<span>Неверный пароль</span>
-										</div>
-										<a href="">
-											<div class="create-btn">
-													Создать
-												</div>
+											<div class="side-desc">
+												Название события
 											</div>
-										</a>
+											<input type="text" placeholder="Акция! Бизнес ланч!">
+										</div>
+										<div class="form-group important">
+											<div class="side-desc">
+												Дата, время
+											</div>
+											<div class="input-holder">
+												<input type="text" placeholder="16.09.2015-16.10.2015">
+												<i class="fa fa-clock-o"></i>
+											</div>
+										</div>
+										<div class="form-group important">
+											<div class="side-desc">
+												Контактный телефон 
+											</div>
+											<div class="input-holder">
+												<input type="text" placeholder="8916-8732299">
+												<i class="fa fa-phone"></i>
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="side-desc">
+												Сайт события
+											</div>
+											<div class="input-holder">
+												<input type="text">
+												<i class="fa fa-globe"></i>
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="side-desc">
+												Стоимость
+											</div>
+											<div class="input-holder">
+												<input type="text" placeholder="200р.">
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="side-desc">
+												Видео
+											</div>
+											<div class="input-holder">
+												<input type="text" >
+												<i class="fa fa-youtube"></i>
+											</div>
+										</div>
+									</div>
 								</form>
+							</div>
+							<div class="col-md-12">
+								<form action="">
+									<div class="event-desc">
+										<div class="desc-holder">
+											<p>
+												Описание собятия 
+											</p>
+											<textarea></textarea>
+											<div class="text-limit">
+												<span>3000</span>
+											</div>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="creating-galery">
+				<div class="container">
+					<div class="white-wraper">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="galery-header">
+									<h1>Галерея</h1>
+									<hr class="type-1">
+								</div>
+							</div>
+							<div class="col-md-12">
+								<div class="galery-top-btns">
+									<ul class="list-inline">
+										<li>
+											<a href="">
+												<span class="btn-holder">Добавить фотографии</span>
+											</a>
+										</li>
+										<li>
+											<a href="">
+												<span class="btn-holder grn">Загрузить все добавленные</span>
+											</a>
+										</li>
+										<li>
+											<a href="">
+												<span class="btn-holder red">Удалить все</span>
+											</a>
+										</li>
+									</ul>
+								</div>
+								<form action="">
+									<div class="upload-section">
+										<ul>
+											<li>
+												<hr>
+												<div class="work-set">
+													<div class="image-holder">
+														<img src="img/content/lnst-list-item-8.jpg" alt="">
+													</div>
+													<div class="desc-block">
+														<span>Главный зал.jpg</span>
+													</div>
+													<div class="progress-block">
+														<span>103.15KB</span>
+														<div class="progress">
+															<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+																<span class="sr-only">60% Complete</span>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="side-btns">
+													<a href="">
+														<span class="btn-holder grn">загрузить</span>
+													</a>
+													<a href="">
+														<span class="btn-holder red">отменить</span>
+													</a>
+												</div>
+											</li>
+											<li>
+												<hr>
+												<div class="work-set">
+													<div class="image-holder">
+														<img src="img/content/lnst-list-item-8.jpg" alt="">
+													</div>
+													<div class="desc-block">
+														<span>Главный зал.jpg</span>
+													</div>
+													<div class="progress-block">
+														<span>103.15KB</span>
+														<div class="progress">
+															<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+																<span class="sr-only">60% Complete</span>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="side-btns">
+													<a href="">
+														<span class="btn-holder grn">загрузить</span>
+													</a>
+													<a href="">
+														<span class="btn-holder red">отменить</span>
+													</a>
+												</div>
+											</li>
+											<li>
+												<hr>
+												<div class="work-set">
+													<div class="image-holder">
+														<img src="img/content/lnst-list-item-8.jpg" alt="">
+													</div>
+													<div class="desc-block">
+														<span>Главный зал.jpg</span>
+													</div>
+													<div class="progress-block">
+														<span>103.15KB</span>
+														<div class="progress">
+															<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+																<span class="sr-only">60% Complete</span>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="side-btns">
+													<a href="">
+														<span class="btn-holder grn">загрузить</span>
+													</a>
+													<a href="">
+														<span class="btn-holder red">отменить</span>
+													</a>
+												</div>
+											</li>
+											<li>
+												<hr>
+												<div class="work-set">
+													<div class="image-holder">
+														<img src="img/content/lnst-list-item-8.jpg" alt="">
+													</div>
+													<div class="desc-block">
+														<span>Главный зал.jpg</span>
+													</div>
+													<div class="progress-block">
+														<span>103.15KB</span>
+														<div class="progress">
+															<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+																<span class="sr-only">60% Complete</span>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="side-btns">
+													<a href="">
+														<span class="btn-holder grn">загрузить</span>
+													</a>
+													<a href="">
+														<span class="btn-holder red">отменить</span>
+													</a>
+												</div>
+											</li>
+											<li>
+												<hr>
+												<div class="work-set">
+													<div class="image-holder">
+														<img src="img/content/lnst-list-item-8.jpg" alt="">
+													</div>
+													<div class="desc-block">
+														<span>Главный зал.jpg</span>
+													</div>
+													<div class="progress-block">
+														<span>103.15KB</span>
+														<div class="progress">
+															<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+																<span class="sr-only">60% Complete</span>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="side-btns">
+													<a href="">
+														<span class="btn-holder grn">загрузить</span>
+													</a>
+													<a href="">
+														<span class="btn-holder red">отменить</span>
+													</a>
+												</div>
+											</li>
+											<li>
+												<hr>
+												<div class="work-set">
+													<div class="image-holder">
+														<img src="img/content/lnst-list-item-8.jpg" alt="">
+													</div>
+													<div class="desc-block">
+														<span>Главный зал.jpg</span>
+													</div>
+													<div class="progress-block">
+														<span>103.15KB</span>
+														<div class="progress">
+															<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+																<span class="sr-only">60% Complete</span>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="side-btns">
+													<a href="">
+														<span class="btn-holder grn">загрузить</span>
+													</a>
+													<a href="">
+														<span class="btn-holder red">отменить</span>
+													</a>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</form>
+								<div class="galery-top-btns">
+									<ul class="list-inline">
+										<li>
+											<a href="">
+												<span class="btn-holder">еще событие</span>
+											</a>
+										</li>
+										<li>
+											<a href="">
+												<span class="btn-holder grn">Сохранить событие</span>
+											</a>
+										</li>
+										<li>
+											<a href="">
+												<span class="btn-holder red">Удалить  событие</span>
+											</a>
+										</li>
+									</ul>
+								</div>
 							</div>
 						</div>
 					</div>

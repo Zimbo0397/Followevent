@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
-		<title>13_register</title>
+		<title>menu-edit</title>
 		<meta name="description" content="">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -124,76 +124,232 @@
 					</div>
 				</div>
 			</section>
-
+			
 			<section class="reg-header">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
 							<h1>
-								Регистрация
+								Личный кабинет
 							</h1>
 						</div>
 					</div>
 				</div>
 			</section>
 
-			<section class="registration-form">
+			<section class="about-inst red">
 				<div class="container">
-					<div class="white-wraper">
+					<div class="white-wraper gray">
 						<div class="row">
-							<div class="col-md-6">
-								<div class="image-block">
-									<div class="image-input">
-										<div class="row-fluid">
-											<div class="span9">
-												<div class="image-holder">
-													<img src="img/content/foto-input.jpg" id="target" alt="Jcrop Image" />
-												</div>
-											</div>
-										</div>
-										<div class="img-info">
-											<p>
-												Фотография формата PNG илиJPG, размером не более 5Мб
-											</p>
-										</div>
-										<div class="file form-group">
-											<input id="image-input" type="file" name="file" id="file" required />
-											<label for="file">Загрузить фотографию</label>
-										</div>
+							<div class="col-md-12">
+								<div class="nav-holder">
+									<div class="inst-mini-nav">
+										<ul class="list-inline">
+											<li class="active"><a href="">Профиль</a></li>
+											<li><a href="">Профиль заведения</a></li>
+											<li><a href="">События</a></li>
+											<li><a href="">Избранное</a></li>
+											<li><a href="">Сообщения</a></li>
+										</ul>
 									</div>
 								</div>
-							</div>
-							<div class="col-md-6">
-								<form action="">
-									<div class="inputs-holder">
-										<div class="form-group important">
-											<input type="text" placeholder="E-mail">
-										</div>
-										<div class="form-group important">
-											<input type="text" placeholder="Имя">
-										</div>
-										<div class="form-group important">
-											<input type="text" placeholder="Пароль">
-										</div>
-										<div class="form-group important">
-											<input class="error" type="text" placeholder="Повтор Пароля">
-										</div>
-										<div class="input-desc">
-											<span>Неверный пароль</span>
-										</div>
-										<a href="">
-											<div class="create-btn">
-													Создать
-												</div>
-											</div>
-										</a>
-								</form>
 							</div>
 						</div>
 					</div>
 				</div>
 			</section>
 
+			<section class="select-types menu-edit">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="select-header">
+								<h1>Меню</h1>
+								<a href="">
+									<div class="go-back">
+										<img src="img/icons/back-arrow.png" alt="">
+										<span>Назад в Профиль</span>
+									</div>
+								</a>
+								<div class="dropdown">
+									<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						               Холодные закуски 
+										<span class="caret"></span>
+									</button>
+									<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+										<li><a href="#">Холодные закуски </a></li>
+										<li><a href="#">Салаты</a></li>
+										<li><a href="#">Напитки</a></li>
+										<li><a href="#">Горячие блюда</a></li>
+									</ul>
+								</div>
+								<a href="">
+									<div class="remove-btn">
+										<span>Удалить</span>
+										<img src="img/icons/bucket.png" alt="">
+									</div>
+								</a>
+								<hr class="type-1">
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<section class="menu-list edit">
+				<div class="container">
+					<div class="white-wraper gray">
+						<div class="row">
+							<div class="col-md-3 col-sm-4 col-xs-6">
+								<div class="menu-list-item">
+									<a href="">
+										<div class="remove-btn">
+											<span>Удалить</span>
+										</div>
+									</a>
+									<div class="image-holder">
+										<img src="img/content/menu-item-1.jpg" alt="">
+									</div>
+									<div class="top-desc">
+										<a href="">
+											<h2>
+												Тайский микс
+											</h2>
+										</a>
+										<p>
+											Морковь и цуккини, арахис, савойская капуста, кинза, сладкий бамбук, огурец, ягодно-ореховый микс, ягоды годжи.
+										</p>
+									</div>
+									<div class="down-desc">
+										<span>30гр/80гр /500гр -<span class="color">150 р</span></span>
+									</div>
+									<a href="">
+										<div class="edit-btn">
+											<span>Редактировать</span>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-4 col-xs-6">
+								<div class="menu-list-item add-item">
+									<div class="image-holder">
+										<img src="img/content/menu-img-2.jpg" alt="">
+									</div>
+									<a href="">
+										<div class="edit-btn grn">
+											<span>Добавить новое блюдо</span>
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="menu-edit-bts">
+				<div class="container">
+					<div class="row col-md-12">
+						<div class="btns-holder">
+							<ul class="list-inline">
+								<li>
+									<a data-toggle="modal" data-target="#myModal" href="">
+										<span class="btn-holder"><span class="big">+</span>категория меню</span>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<span class="btn-holder grn">категория меню</span>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<span class="btn-holder red">категория меню</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="modals-holder">
+							<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-body">
+											<div class="modal-head">
+												<h1>
+													 карточка блюда
+												</h1>
+											</div>
+											<div class="registration-form pers-area menu-select">
+												<div class="image-block">
+													<div class="image-input">
+														<div class="row-fluid">
+															<div class="span9">
+																<div class="image-holder">
+																	<img src="img/content/plate-menu.jpg" id="target" alt="Jcrop Image" />
+																</div>
+															</div>
+														</div>
+														<div class="img-info">
+															<p>
+																Фотография формата PNG илиJPG, размером не более 5Мб
+															</p>
+														</div>
+														<div class="file form-group">
+															<input id="image-input" type="file" name="file" id="file" required />
+															<label for="file">Загрузить фотографию</label>
+														</div>
+													</div>
+												</div>
+												<form action="">
+													<div class="inputs-holder">
+														<div class="form-group important">
+															<div class="side-desc">
+																Название блюда
+															</div>
+															<input type="text" placeholder="Тайский микс">
+														</div>
+														<div class="form-group important">
+															<div class="side-desc">
+																Вес порци
+															</div>
+															<input type="text" placeholder="150гр">
+														</div>
+														<div class="form-group important">
+															<div class="side-desc">
+																Стоимость порции
+															</div>
+															<input type="text" placeholder="300 р.">
+														</div>
+														<div class="form-group important">
+															<div class="side-desc">
+																Индредиенты <br>(описание)
+															</div>
+															<textarea>Морковь и цуккини приправлнные</textarea>
+														</div>
+														<div class="form-group">
+															<a href="">
+																<div class="create-btn">
+																		Сохранить
+																	</div>
+																</div>
+															</a>
+														</div>
+													</div>
+												</form>
+												<a data-dismiss="modal" href="">
+													<div class="close-btn">
+														<img src="img/icons/close-btn-img.png" alt="">
+													</div>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 
 			<section class="footer spring">
 				<div class="container">
