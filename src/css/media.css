@@ -1064,6 +1064,9 @@
 	}
 }
 @media (max-width: 380px) {
+	.btns-row .btn-holder {
+		width: 100%;
+	}
 	.inst-card.events h1 {
 		font-size: 25px;
     	line-height: 32px;

@@ -3246,6 +3246,9 @@ color: #454545;
     top: 2px;
     right: -153px;
 }
+.registration-form.pers-area.profile .image-block {
+    height: 436px;
+}
 .registration-form .row-fluid  {
     height: 100%;
 }
@@ -3267,6 +3270,9 @@ color: #454545;
 }
 .registration-form.pers-area .image-block .image-input {
     height: 200px;
+}
+.registration-form.pers-area.profile .image-block .image-input {
+    height: 272px;
 }
 .registration-form .image-block .img-info {
     text-align: center;
@@ -3503,6 +3509,10 @@ color: #454545;
     background: #3d95c2;
     color: #fff;
 } 
+.pers-area.profile .file label {
+    background: #bfbfbf;
+    color: #454545;
+}
 .file input[type="file"] {
     cursor: pointer;
     display: inline-block;
