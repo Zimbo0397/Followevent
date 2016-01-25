@@ -573,7 +573,7 @@
 		height: auto;
 	}
 	.registration-form.pers-area.menu-select .inputs-holder {
-		width: auto;
+		width: 100%;
 	    left: 0;
 	    padding: 5px;
 	}

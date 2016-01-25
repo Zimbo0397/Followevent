@@ -10,6 +10,7 @@
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/fonts.css">
+		<link rel="stylesheet" href="css/select2.min.css">
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/media.css">
 		<link rel="stylesheet" href="css/jquery.Jcrop.css">
@@ -231,31 +232,48 @@
 											<div class="input-holder">
 												<div class="personal-social">
 													<ul class="list-inline">
-														<li>
+														<li role="presentation">
 															<div class="img-block active">
-																<i class="fa fa-facebook-square"></i>
+																<a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">
+																	<i class="fa fa-facebook-square"></i>
+																</a>
 															</div>
 														</li>
-														<li>
+														<li role="presentation">
 															<div class="img-block">
-																<i class="fa fa-instagram"></i>
+																<a a href="#profile" aria-controls="profile" role="tab" data-toggle="tab"><i class="fa fa-instagram"></i></a>
 															</div>
 														</li>
-														<li>
+														<li role="presentation">
 															<div class="img-block">
-																<i class="fa fa-twitter-square"></i>
+																<a a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">
+																	<i class="fa fa-twitter-square"></i>
+																</a>
 															</div>
 														</li>
-														<li>
+														<li role="presentation">
 															<div class="img-block">
-																<i class="fa fa-vk"></i>
+																<a <a href="#settings" aria-controls="settings" role="tab" data-toggle="tab"><i class="fa fa-vk"></i></a>
 															</div>
 														</li>
 													</ul>
 												</div>
 											</div>
 											<div class="input-holder">
-												<input type="text">
+												<div class="tab-content">
+													<div role="tabpanel" class="tab-pane active" id="home">
+														<input type="text" placeholder="https://www.facebook.com/">
+													</div>
+													<div role="tabpanel" class="tab-pane" id="profile">
+														<input type="text" placeholder="https://www.instagram.com/">
+													</div>
+													<div role="tabpanel" class="tab-pane" id="messages">
+														<input type="text" placeholder="https://twitter.com/">
+													</div>
+													<div role="tabpanel" class="tab-pane" id="settings">
+														<input type="text" placeholder="https://vk.com">
+													</div>
+												</div>
 											</div>
 										</div>
 										<div class="form-group">
@@ -544,8 +562,13 @@
 											<div class="side-desc">
 												Кухня
 											</div>
-											<div class="input-holder blocks">
-												<span>Европейская <a href=""><img src="img/icons/close-btn-img.png" alt=""></a></span>
+											<div class="input-holder blocks select">
+												<select class="js-example-basic-multiple" multiple="multiple">
+													  <option value="AL">Европейская</option>
+													  <option value="WY">Кавказская</option>
+													  <option value="WY">Индийская</option>
+													  <option value="WY">Китайская</option>
+												</select>
 											</div>
 										</div>
 										<div class="form-group">
@@ -561,9 +584,13 @@
 												Мы предлагаем
 											</div>
 											<div class="input-holder blocks lg">
-												<span>Открытая веранда <a href=""><img src="img/icons/close-btn-img.png" alt=""></a></span>
-												<span>Кальян <a href=""><img src="img/icons/close-btn-img.png" alt=""></a></span>
-												<span>Живая музыка <a href=""><img src="img/icons/close-btn-img.png" alt=""></a></span>
+												<select class="js-example-basic-multiple" multiple="multiple">
+													  <option value="AL">Открытая веранда</option>
+													  <option value="WY">Кальян</option>
+													  <option value="WY">Индийская</option>
+													  <option value="WY">Живая музыка</option>
+													  <option value="AL">Открытая веранда</option>
+												</select>
 											</div>
 										</div>
 								</form>
@@ -901,9 +928,11 @@
 		</div>
 		<script src="js/vendor/jquery-2.1.4.min.js"></script>
 		<script src="js/vendor/jquery.Jcrop.js"></script>
+		<script src="js/vendor/select2.min.js"></script>
 		<script src="js/bootstrap.js"></script>
-		<script src="js/plugins.js"></script>
-		<script src="js/main.js"></script>
 		<script src="js/init_jcrop.js"></script>
+		<script>
+			$(".js-example-basic-multiple").select2();
+		</script>
 	</body>
 </html>

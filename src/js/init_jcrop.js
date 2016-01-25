@@ -1,10 +1,10 @@
-
       function readURL(input) {
              if (input.files && input.files[0]) {
                  var reader = new FileReader();
 
                  reader.onload = function mail (e) {
-                     $('#target, .jcrop-holder img').attr('src', e.target.result);
+
+                    $('#target, .jcrop-holder img').attr('src', e.target.result);
                     $('#target').Jcrop();
 
                  };
@@ -14,5 +14,6 @@
          }
          $('#image-input').on('change', function () {
           readURL(this);
+          $(this).closest('.form-group').addClass('disabled');
 
          });
