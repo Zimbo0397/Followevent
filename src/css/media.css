@@ -299,6 +299,12 @@
 	}
 }
 @media (max-width: 991px) {
+	.dropdowns-line .ui-selectmenu-button {
+		width: 100%;
+	}
+	.dropdowns-line.ui-selectmenu-menu .ui-menu {
+	    min-width: 100%;
+	}
 	.dropdowns-line select {
 		width: 100%;
 		max-width: 100%;
@@ -514,6 +520,11 @@
 	}
 }
 @media (max-width: 600px) {
+	.fileupload-buttonbar .fileinput-button,
+	.fileupload-buttonbar .start,
+	.fileupload-buttonbar .delete {
+		width: 100%;
+	}
 	.user-line .right-block .image-holder {
 		margin-top: 0;
 	}
@@ -543,7 +554,21 @@
 		margin-bottom: 80px;
 	}
 }
+@media (min-width: 767px) {
+	.template-upload  i,
+	.template-download  i {
+		display: none;
+	}
+}
 @media (max-width: 767px) {
+	.template-upload .start,
+	.template-download .delete,
+	.template-upload .cancel {
+	    width: 50px;
+	}
+	.creating-galery .mb-hd {
+	    display: none;
+	}
 	.event-desc .desc-holder {
 	    max-width: 100%;
 	    padding-left: 12px;

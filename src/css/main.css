@@ -1851,6 +1851,7 @@ color: #454545;
     position: relative;
 }
 .main-filters .dropdowns-line  li {
+    vertical-align: top;
 }
 .main-filters .dropdowns-line .f-icon {
     position: absolute;
@@ -4411,13 +4412,38 @@ color: #454545;
     right: -4px;
     background: url(../img/icons/filters-line-gray.png);
 }
+.dropdowns-line .ui-selectmenu-button {
+    width: 241px;
+    color: #454545;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 100;
+    background: transparent;
+    border: none;
+    vertical-align: top;
+    outline: none;
+}
+.dropdowns-line .ui-selectmenu-button span.ui-icon {
+    display: none;
+}
+.ui-selectmenu-button span.ui-selectmenu-text {
+    height: 52px;
+}
+.ui-selectmenu-menu .ui-menu li {
+    height: 52px;
+    color: #454545;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 100;
 
-
-
+}
 /*Uploadcss*/
 .fileupload-buttonbar .fileinput-button,
 .fileupload-buttonbar .start,
-.fileupload-buttonbar .delete {
+.fileupload-buttonbar .delete,
+.template-upload .start,
+.template-download .delete,
+.template-upload .cancel {
     width: 300px;
     height: 45px;
     display: inline-block;
@@ -4430,7 +4456,6 @@ color: #454545;
     font-weight: 400;
     line-height: 24px;
     text-transform: uppercase;
-    margin-bottom: 50px;
     overflow: hidden;
     position: relative;
     vertical-align: top;
@@ -4456,4 +4481,26 @@ color: #454545;
 .fileupload-buttonbar .toggle,
 .fileupload-buttonbar .cancel {
     display: none;
+}
+.template-upload .start,
+.template-download .delete,
+.template-upload .cancel {
+    padding-top: 0;
+    width: 173px;
+    border: none;
+    outline: none;
+}
+.template-upload .start {
+    background: #a0cb38;
+}
+.template-upload .cancel,
+.template-download .delete {
+    background: #f95500;
+}
+.creating-galery .form-wrap {
+    text-align: center;
+}
+.creating-galery .form-wrap .form-holder {
+    display: inline-block;
+    max-width: 940px;
 }

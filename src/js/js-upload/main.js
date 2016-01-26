@@ -18,7 +18,6 @@ $(function () {
     $('#fileupload').fileupload({
         // Uncomment the following to send cross-domain cookies:
         //xhrFields: {withCredentials: true},
-        // url: '/followevent/src/server/php/index.php'
         url: 'http://balalike.sip-projects.com/followevent/src/server/php/index.php'
     });
 
@@ -68,14 +67,8 @@ $(function () {
         }).always(function () {
             $(this).removeClass('fileupload-processing');
         }).done(function (result) {
-            // console.log(result)
-            // console.log(this)
-            // console.log($(this).fileupload('option', 'done'))
-            var $selff = $(this)
-            setTimeout(function() {
-                $selff.fileupload('option', 'done')
-                    .call(this, $.Event('done'), {result: result});
-            }, 3000);
+            $(this).fileupload('option', 'done')
+                .call(this, $.Event('done'), {result: result});
         });
     }
 
