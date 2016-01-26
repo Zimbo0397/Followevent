@@ -299,6 +299,10 @@
 	}
 }
 @media (max-width: 991px) {
+	.dropdowns-line select {
+		width: 100%;
+		max-width: 100%;
+	}
 	.btns-row {
 		text-align: center;
 	}

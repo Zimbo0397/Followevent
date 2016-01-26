@@ -4346,3 +4346,114 @@ color: #454545;
 .t-label.mrt .image-holder span.line {
     top: 10px;
 }
+
+
+
+
+
+/*dropdowns-line selects*/
+.dropdowns-line select {
+    color: #454545;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 100;
+    border: none;
+    outline: none;
+    min-width: 241px;
+    max-width: 241px;
+    position: relative;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding-left: 21px;
+    height: 52px;
+}
+.dropdowns-line select:before {
+/*    content: "";
+    height: 9px;
+    width: 16px;
+    background: url(../img/icons/curret-custom.png);
+    position: absolute;
+    right: 0;
+    top: 5px;*/
+}
+.dropdowns-line option {
+    color: #454545;
+    font-family: Roboto;
+    min-width: 241px;
+    max-width: 241px;
+    font-size: 20px;
+    font-weight: 100;
+    max-width: 98%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-right: 35px;
+}
+.dropdowns-line .select-holder {
+    position: relative;
+}
+.dropdowns-line .select-holder .caret {
+    position: absolute;
+    right: 19px;
+    top: 23px;
+    border-top: 9px dashed;
+    border-right: 8px solid transparent;
+    border-left: 10px solid transparent;
+    color: #9a9a9a;
+}
+.dropdowns-line .select-holder:after {
+    content: "";
+    height: 36px;
+    width: 1px;
+    position: absolute;
+    top: 8px;
+    right: -4px;
+    background: url(../img/icons/filters-line-gray.png);
+}
+
+
+
+/*Uploadcss*/
+.fileupload-buttonbar .fileinput-button,
+.fileupload-buttonbar .start,
+.fileupload-buttonbar .delete {
+    width: 300px;
+    height: 45px;
+    display: inline-block;
+    padding-top: 10px;
+    text-align: center;
+    background-color: #6194bf;
+    color: white;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    overflow: hidden;
+    position: relative;
+    vertical-align: top;
+    margin-top: 20px;
+}
+.fileinput-button input {
+    position: absolute;
+    font-size: 200px;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+.fileupload-buttonbar .start,
+.fileupload-buttonbar .delete {
+    border: none;
+    outline: none;
+    background: #a0cb38;
+    padding: 0;
+}
+.fileupload-buttonbar .delete {
+    background: #f95500;
+}
+.fileupload-buttonbar .toggle,
+.fileupload-buttonbar .cancel {
+    display: none;
+}

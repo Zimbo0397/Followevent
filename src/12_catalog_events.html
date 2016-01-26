@@ -130,115 +130,111 @@
 					<div class="row">
 						<div class="col-md-12 col-sm-12 col-xs-12">
 							<form action="">
-								<div class="main-dropdown">
-									<div class="dropdown">
-										<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-											Лучшие события
-											<span class="caret"></span>
-										</button>
-										<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-											<li><a href="#">Выставки</a></li>
-											<li><a href="#">Ярмарки</a></li>
-											<li><a href="#">Концерты</a></li>
-											<li><a href="#">Митинги</a></li>
-										</ul>
-									</div>
-								</div>
-								<div class="dropdowns-line">
-									<ul class="list-inline">
-										<li>
-											<div class="dropdown">
-												<div class="psbtn">
-													<p> Дата <input type="text" id="datepicker"></p>
-													<span class="caret"></span>
-												</div>
-											</div>
-										</li>
-										<li>
-											<div class="dropdown">
-												<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-													Категория
-													<span class="caret"></span>
-												</button>
-												<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-													<li><a href="#">Категория</a></li>
-													<li><a href="#">Категория</a></li>
-													<li><a href="#">Категория</a></li>
-													<li><a href="#">Категория</a></li>
-												</ul>
-											</div>
-										</li>
-										<li>
-											<div class="dropdown">
-												<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-													Стоимость
-													<span class="caret"></span>
-												</button>
-												<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-													<li><a href="#">3000 р.</a></li>
-													<li><a href="#">5000 р.</a></li>
-													<li><a href="#">10 000 р.</a></li>
-													<li><a href="#">250 000 р.</a></li>
-												</ul>
-											</div>
-										</li>
-										<li class="last">
-											<div class="dropdown">
-												<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-													Особенности
-													<span class="caret"></span>1
-												</button>
-												<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-													<li><a href="#">Живая музыка</a></li>
-													<li><a href="#">Прозрачная крыша</a></li>
-													<li><a href="#">Аквариум</a></li>
-													<li><a href="#">Выезд на дом</a></li>
-												</ul>
-											</div>
-										</li>
-									</ul>
-									<div class="image-holder f-icon">
-										<a href="">
-											<img src="img/icons/find-icon.png" alt="">
-										</a>
-									</div>
-								</div>
-								<div class="inst-sorting">
-									<h1 class="type-1 ">
-									Найдено <span class="color">155</span>	
-									</h1>
-									<hr class="type-1">
-									<div class="sorts-line clearfix">
-										<div class="sorts-bttns">
-											<span>
-												Показывать
-											</span>
-												<div class="spans-1 spans-group">
-													<span class="strng"></span>
-													<span class="strng"></span>
-													<span class="strng"></span>
-												</div>
-												<div class="spans-2 spans-group active">
-													<span class="cb"></span>
-													<span class="cb"></span>
-													<span class="cb"></span>
-													<span class="cb"></span>
-													<span class="cb"></span>
-													<span class="cb"></span>
-													<span class="cb"></span>
-													<span class="cb"></span>
-													<span class="cb"></span>
-												</div>
-										</div>
-										<div class="sorts-urls">
-											<ul class="list-inline">
-												<li class="active"><a href="#">По рейтингу </a></li>
-												<li><a href="">По названию</a></li>
-												<li><a href="">По счету</a></li>
+								<fieldset>
+									<div class="main-dropdown">
+										<div class="dropdown">
+											<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+												Лучшие события
+												<span class="caret"></span>
+											</button>
+											<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+												<li><a href="#">Выставки</a></li>
+												<li><a href="#">Ярмарки</a></li>
+												<li><a href="#">Концерты</a></li>
+												<li><a href="#">Митинги</a></li>
 											</ul>
 										</div>
 									</div>
-								</div>
+									<div class="dropdowns-line">
+										<ul class="list-inline">
+											<li>
+												<div class="dropdown">
+													<div class="psbtn">
+														<p> Дата <input type="text" id="datepicker"></p>
+														<span class="caret"></span>
+													</div>
+												</div>
+											</li>
+											<li>
+												<div class="select-holder">
+													<select name="speed" id="speed">
+														<option>Категория</option>
+														<option>Категория1</option>
+														<option selected="selected">Категория</option>
+														<option>Категория3</option>
+														<option>Категория4</option>
+													</select>
+													<span class="caret"></span>
+												</div>
+											</li>
+											<li>
+												<div class="select-holder">
+													<select name="speed" id="speed">
+														<option>3000 р.</option>
+														<option>5000 р.</option>
+														<option selected="selected">Стоимость</option>
+														<option>10 000 р.</option>
+														<option>250 000 р.</option>
+													</select>
+													<span class="caret"></span>
+												</div>
+											</li>
+											<li class="last">
+												<div class="select-holder">
+													<select name="speed" id="speed">
+														<option>Особенности</option>
+														<option>Особенности1</option>
+														<option selected="selected">Особенности1</option>
+														<option>Особенности2</option>
+														<option>Особенности4</option>
+													</select>
+													<span class="caret"></span>
+												</div>
+											</li>
+										</ul>
+										<div class="image-holder f-icon">
+											<a href="">
+												<img src="img/icons/find-icon.png" alt="">
+											</a>
+										</div>
+									</div>
+									<div class="inst-sorting">
+										<h1 class="type-1 ">
+										Найдено <span class="color">155</span>	
+										</h1>
+										<hr class="type-1">
+										<div class="sorts-line clearfix">
+											<div class="sorts-bttns">
+												<span>
+													Показывать
+												</span>
+													<div class="spans-1 spans-group">
+														<span class="strng"></span>
+														<span class="strng"></span>
+														<span class="strng"></span>
+													</div>
+													<div class="spans-2 spans-group active">
+														<span class="cb"></span>
+														<span class="cb"></span>
+														<span class="cb"></span>
+														<span class="cb"></span>
+														<span class="cb"></span>
+														<span class="cb"></span>
+														<span class="cb"></span>
+														<span class="cb"></span>
+														<span class="cb"></span>
+													</div>
+											</div>
+											<div class="sorts-urls">
+												<ul class="list-inline">
+													<li class="active"><a href="#">По рейтингу </a></li>
+													<li><a href="">По названию</a></li>
+													<li><a href="">По счету</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</fieldset>
 							</form>
 						</div>
 					</div>
