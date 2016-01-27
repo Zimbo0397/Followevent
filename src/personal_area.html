@@ -9,6 +9,7 @@
 
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="//blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
 		<link rel="stylesheet" href="css/fonts.css">
 		<link rel="stylesheet" href="css/select2.min.css">
 		<link rel="stylesheet" href="css/main.css">
@@ -18,7 +19,6 @@
 
 	</head>
 	<body>
-		
 		<div class="page-wraper">
 			<section class="top-bunner">
 				<div class="container">
@@ -368,8 +368,18 @@
 						</div>
 					</div>
 				</div>
+				<!-- The blueimp Gallery widget -->
 			</section>
 
+	<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls" data-filter=":even">
+	    <div class="slides"></div>
+	    <h3 class="title"></h3>
+	    <a class="prev">‹</a>
+	    <a class="next">›</a>
+	    <a class="close">×</a>
+	    <a class="play-pause"></a>
+	    <ol class="indicator"></ol>
+	</div>
 			<section class="select-types">
 				<div class="container">
 					<div class="white-wraper">
@@ -777,7 +787,7 @@
 					</div>
 				</div>
 			</section>
-		</div>
+
 		<script src="js/vendor/jquery-2.1.4.min.js"></script>
 		<script src="js/vendor/jquery-ui.min.js"></script>
 		<script src="js/vendor/jquery.Jcrop.js"></script>
