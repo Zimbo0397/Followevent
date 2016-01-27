@@ -4496,6 +4496,13 @@ color: #454545;
 .template-upload .cancel,
 .template-download .delete {
     background: #f95500;
+    display: inline-block;
+    vertical-align: middle;
+}
+.template-download input  {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 18px;
 }
 .creating-galery .form-wrap {
     text-align: center;
