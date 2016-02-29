@@ -479,7 +479,7 @@ a:hover {
     top: 20px;
     padding-bottom: 31px;
 }
-.user-line .logo-block:after {
+/*.user-line .logo-block:after {
     content: "";
     width: 99px;
     height: 11px;
@@ -487,7 +487,7 @@ a:hover {
     bottom: 0px;
     left: -12px;
     position: absolute;
-}
+}*/
 .user-line .left-block .caret,
 .user-line .right-block .caret {
     color: #909090;
@@ -627,6 +627,15 @@ a:hover {
     margin-right: 19px;
     padding-top: 15px;
     padding-bottom: 27px;
+}
+.main-navbar .navbar-nav > li.active > a:before {
+    content: "";
+    width: 100%;
+    height: 11px;
+    background-color: #f1f1f1;
+    top: -11px;
+    left: 0px;
+    position: absolute;
 }
 .main-navbar .navbar-nav > li.active > a:after {
     content: "";

@@ -748,8 +748,8 @@
 		height: 100%;
 	}
 	.main-inst-list .list-item .img-part .img-wraper .image-holder img {
-		width: auto;
-		height: 100%;
+		/*width: auto;*/
+		/*height: 100%;*/
 	}
 	.inst-reviews-list {
 		margin-bottom: 40px;
