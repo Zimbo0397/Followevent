@@ -512,12 +512,13 @@ a:hover {
 .user-line .right-block .image-holder {
     height: 69px;
     width: 69px;
-    margin-top: 32px;
+    /*margin-top: 32px;*/
     float: right;
     margin-right: 9px;
 }
 .user-line .right-block .user-holder {
     position: relative;
+    text-align: right;
 }
 .user-line .right-block .user-holder .ms-count {
     position: absolute;
@@ -4520,4 +4521,9 @@ color: #454545;
 .creating-galery .form-wrap .form-holder {
     display: inline-block;
     max-width: 940px;
+}
+
+.link-wrap {
+    display: inline-block;
+    margin-top: 32px;
 }
