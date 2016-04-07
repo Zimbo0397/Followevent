@@ -1547,7 +1547,7 @@ color: #454545;
 }
 .inst-card .info-list {
     margin-top: 31px;
-    max-height: 194px;
+/*    max-height: 194px;*/
     overflow: hidden;
 }
 .inst-card .info-list ul {
@@ -3097,21 +3097,23 @@ color: #454545;
 .inst-card.events .info-list {
     margin-top: 18px;
 }
-.inst-card.events .counters-bord {
+/*.inst-card.events .counters-bord {
     bottom: 144px;
-}
-.inst-card.events .counters-bord .general-counter {
+}*/
+/*.inst-card.events .counters-bord .general-counter {
     right: 35px;
     bottom: 42px;
-}
+}*/
 .inst-card.events .mini-blocks {
     position: absolute;
     width: 606px;
     left: -31px;
-    bottom: -15px;
+    /*bottom: -15px;*/
+    max-height: 149px;
+    overflow: hidden;
 }
 .inst-card.events .mini-blocks ul li {
-    width: 201px;
+    width: 182px;
 }
 
 
@@ -4527,3 +4529,38 @@ color: #454545;
     display: inline-block;
     margin-top: 32px;
 }
+
+
+
+
+
+
+
+.inst-card.events .inst-card-desc {
+    height: auto;
+    padding-bottom: 10px;
+}
+
+.inst-card .counters-bord .general-counter {
+    right: 5px;
+    bottom: 21px;
+}
+
+.inst-card.events .mini-blocks {
+    position: relative;
+    width: 606px;
+    left: -1px;
+    /*bottom: -15px;*/
+}
+.inst-card .counters-bord {
+    position: relative;
+    margin-top: 30px;
+    bottom: 0;
+}
+
+
+
+/*main.css 3100*/
+/*3103*/
+/*1548*/
+

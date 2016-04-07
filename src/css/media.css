@@ -109,22 +109,22 @@
 		width: 409px;
 		height: 648px;
 	}
-	.inst-card.events .counters-bord {
+/*	.inst-card.events .counters-bord {
 		bottom: 96px;
-	}
-	.inst-card.events .mini-blocks {
+	}*/
+/*	.inst-card.events .mini-blocks {
 		left: -13px;
     	bottom: -8px;
-	}
+	}*/
 	.inst-card.events .mini-blocks ul li {
 		width: 140px;
 	}
-	.inst-card.events .inst-card-desc {
+/*	.inst-card.events .inst-card-desc {
 		height: 420px;
-	}
-	.inst-card.events .counters-bord .general-counter {
+	}*/
+/*	.inst-card.events .counters-bord .general-counter {
 		bottom: 53px;
-	}
+	}*/
 	.inst-card.events h1  {
 	    text-transform: none;
 	    line-height: 23px;
@@ -388,9 +388,9 @@
     	width: auto;
     	position: static;
 	}
-	.inst-card.events .counters-bord .general-counter {
+/*	.inst-card.events .counters-bord .general-counter {
 		bottom: 62px;
-	}
+	}*/
 	.inst-card.events .counters-bord {
 	    position: relative;
 	    bottom: 0;
@@ -471,9 +471,9 @@
 		float: none;
 		text-align: center;
 	}
-	.inst-card .counters-bord .general-counter {
+/*	.inst-card .counters-bord .general-counter {
 		bottom: 5px;
-	}
+	}*/
 	.inst-card .counters-bord .count-back {
 		top: 0;
 		left: 0;
@@ -844,6 +844,9 @@
 	}
 }
 @media (max-width: 540px) {
+	.inst-card.events .mini-blocks {
+		max-height: 119px;
+	}
 	.select-header .remove-btn {
 		bottom: 3px;
 	}
@@ -1093,6 +1096,9 @@
 	}
 }
 @media (max-width: 380px) {
+	.inst-card.events .mini-blocks {
+		max-height: 100%;
+	}
 	.btns-row .btn-holder {
 		width: 100%;
 	}
@@ -1118,3 +1124,10 @@
 		height: auto;
 	}
 }
+
+
+
+/*112 строка*/
+/*115 строка*/
+/*125 строка*/
+/*122 строка*/
